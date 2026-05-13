@@ -1,0 +1,701 @@
+# ::id 0
+# ::snt
+# ::save-date Thu Jun 26, 2025 16:54
+(c / chapter
+   :mod (1 / 1))
+
+# ::id 1
+# ::snt
+# ::save-date Fri Aug 15, 2025 13:36 16:54
+(a / amr-unknown
+   :ARG2-of (h / have-manner-91
+               :ARG1 (f / find-01
+                        :ARG0 (p / person
+                                 :mod (c / carpenter)
+                                 :name (n / name
+                                          :op1 "Mastro"
+                                          :op2 "Cherry")
+                                 :wiki -)
+                        :ARG1 (w / wood
+                                 :ARG0-of (c1 / cry-02
+                                              :ARG1-of (l1 / like-04
+                                                           :ARG2 (c3 / child)))
+                                 :ARG0-of (l / laugh-01
+                                             :ARG1-of (l2 / like-04
+                                                          :ARG2 (c4 / child)))
+                                 :quant (p1 / piece)))))
+
+# ::id 2
+# ::snt
+# ::save-date Thu Jun 26, 2025 16:54
+(o / once_upon_a_time)
+
+# ::id 3
+# ::snt
+# ::save-date Thu Aug 14, 2025 16:12 16:54
+(s / say-01
+   :ARG0 (c / child
+            :poss (i / i)
+            :mod (l / little)
+            :ARG0-of (r / read-01))
+   :ARG1 (k / king))
+
+# ::id 4
+# ::snt
+# ::save-date Thu Jun 26, 2025 16:54
+(a / and
+   :op1 (n / no)
+   :op2 (w / wrong-04
+           :ARG0 (c / child)))
+
+# ::id 5
+# ::snt
+# ::save-date Thu Jun 26, 2025 16:54
+(w / wood
+   :time (o / once_upon_a_time)
+   :quant (p / piece))
+
+# ::id 6
+# ::snt
+# ::save-date Thu Jun 26, 2025 16:54
+(c / contrast-01
+   :ARG1 (w / wood
+            :mod (l / luxurious)
+            :mod (s / some)
+            :domain (i / it))
+   :ARG2 (l1 / log
+             :mod (o / ordinary)
+             :domain i
+             :subset (t / those
+                        :ARG1-of (p / put-01
+                                    :purpose (h / heat-01
+                                                :ARG1 (r / room))
+                                    :ARG2 (f / fireplace)
+                                    :time (d / date-entity
+                                             :season (w1 / winter))))))
+
+# ::id 7
+# ::snt
+# ::save-date Fri Aug 15, 2025 13:36 16:54
+(c / contrast-01
+   :ARG1 (k / know-01
+            :ARG0 (i / i)
+            :polarity -
+            :ARG1 (a / amr-unknown
+                     :ARG2-of (h1 / have-manner-91
+                                  :ARG1 (h / happen-01
+                                           :ARG0 (i1 / it)))))
+   :ARG2 (a1 / appear-01
+             :ARG0 (w / wood
+                      :quant (p / piece)
+                      :mod (t / this))
+             :location (w1 / workshop
+                           :poss (c1 / carpenter
+                                     :ARG1-of (o / old-01)
+                                     :ARG1-of (n / name-01
+                                                 :ARG2 (p1 / person
+                                                           :name (n1 / name
+                                                                     :op1 "Mastro"
+                                                                     :op2 "Antonio")
+                                                           :wiki -)
+                                                 :ARG1-of (c2 / contrast-01
+                                                              :ARG2 (c3 / call-01
+                                                                        :ARG1 c1
+                                                                        :ARG0 (e / everyone)
+                                                                        :ARG2 (p2 / person
+                                                                                  :name (n2 / name
+                                                                                            :op1 "Mastro"
+                                                                                            :op2 "Cherry")
+                                                                                  :wiki -)
+                                                                        :ARG1-of (c4 / cause-01
+                                                                                     :ARG0 (a2 / and
+                                                                                               :op1 (s / shine-01
+                                                                                                       :ARG1 (t1 / tip
+                                                                                                                 :part-of (n3 / nose
+                                                                                                                              :part-of c1))
+                                                                                                       :ARG1-of (r1 / resemble-01
+                                                                                                                    :ARG2 (c5 / cherry
+                                                                                                                              :ARG1-of (r3 / ripe-02))))
+                                                                                               :op2 (r / red-02
+                                                                                                       :ARG1 t1
+                                                                                                       :ARG1-of (r2 / resemble-01
+                                                                                                                    :ARG2 c5))
+                                                                                               :time (a3 / always))))))))
+             :time (d / day
+                      :mod (o1 / one)
+                      :ARG1-of (f / fine-03))))
+
+# ::id 8
+# ::snt
+# ::save-date Thu Jun 26, 2025 16:54
+(a / and
+   :op1 (h / happy-01
+           :time (s / see-01
+                    :ARG0 p
+                    :ARG1 (w / wood))
+           :ARG1 (p / person
+                    :name (n / name
+                             :op1 "Mastro"
+                             :op2 "Cherry")
+                    :wiki -)
+           :degree (v / very))
+   :op2 (m / mumble-01
+           :ARG0 p
+           :ARG1 (a1 / and
+                     :op1 (c / come-01
+                             :ARG0 w
+                             :mod (o / on-time))
+                     :op2 (m1 / make-01
+                              :ARG0 p
+                              :ARG1 (l / leg
+                                       :part-of (t / table))))
+           :time (r / rub-01
+                    :ARG1 (h1 / hand
+                              :part-of p)
+                    :ARG0 p)
+           :ARG1-of (s1 / silence-02)))
+
+# ::id 9
+# ::snt
+# ::save-date Thu Aug 14, 2025 19:22 13:52
+(c / contrast-01
+   :ARG1 (g / grab-01
+            :ARG0 (h / he)
+            :ARG1 (a / adze
+                     :ARG1-of (s / sharp-02))
+            :time (a1 / at-once)
+            :purpose (b / begin-02
+                        :ARG1 (a2 / and
+                                  :op1 (p / peel-01
+                                          :ARG1 (b1 / bark
+                                                    :part-of (i / it))
+                                          :ARG0 h)
+                                  :op2 (s1 / shape-01
+                                           :ARG0 h
+                                           :ARG1 i))))
+   :ARG2 (s3 / stay-01
+             :ARG1 h
+             :manner (l1 / lift-01
+                         :ARG1 (a4 / arm
+                                   :part-of h)
+                         :location (a5 / air))
+             :time (s2 / strike-01
+                       :time (a3 / about-to)
+                       :ARG0 h
+                       :ARG1 i)
+             :ARG1-of (c1 / cause-01
+                          :ARG0 (h1 / hear-01
+                                    :ARG0 h
+                                    :ARG1 (v / voice
+                                             :ARG0-of (b2 / beg-01
+                                                          :ARG1 h
+                                                          :ARG2 (h2 / hit-01
+                                                                    :polarity -
+                                                                    :mode "imperative"
+                                                                    :ARG0 h
+                                                                    :ARG1 v
+                                                                    :ARG1-of (s4 / strong-02
+                                                                                 :degree (v1 / very))))
+                                             :ARG1-of (l2 / little-01))))))
+
+# ::id 10
+# ::snt
+# ::save-date Thu Jun 26, 2025 16:54
+(p / possible-01
+   :ARG1 (i / imagine-01
+            :ARG0 (y / you)
+            :ARG1 (t / this
+                     :ARG2-of (a / affect-01
+                                 :ARG0 (w / word
+                                          :mod (t1 / these))
+                                 :ARG1 (m / man
+                                          :mod (g / good-old)
+                                          :name (n / name
+                                                   :op1 "Mastro"
+                                                   :op2 "Cherry")
+                                          :wiki -)))))
+
+# ::id 11
+# ::snt
+# ::save-date Fri Jun 27, 2025 14:50
+(c1 / contrast-01
+    :ARG1 (l / look-01
+             :ARG0 (h / he)
+             :purpose (f / find-01
+                         :ARG0 h
+                         :ARG1 (p1 / place
+                                   :ARG3-of (c / come-01
+                                               :ARG0 (v / voice
+                                                        :mod (t / this))
+                                               :ARG1-of (p / possible-01))))
+             :instrument (e / eye
+                            :part-of h
+                            :ARG1-of (d / dumbfound-01))
+             :direction (a / around
+                           :op1 (r / room
+                                   :mod (w / whole))))
+    :ARG2 (n / notice-01
+             :ARG0 h
+             :polarity -
+             :ARG1 (a1 / anyone)))
+
+# ::id 12
+# ::snt
+# ::save-date Wed Aug 13, 2025 13:23 14:50
+(a / and
+   :op1 (c / contrast-01
+           :ARG1 (l / look-01
+                    :ARG1 (u / under
+                             :op1 (c4 / counter))
+                    :ARG0 (h / he))
+           :ARG2 (n / nobody))
+   :op2 (c1 / contrast-01
+            :ARG1 (l1 / look-01
+                      :ARG0 h
+                      :ARG1 (i / inside
+                               :op1 (c5 / cupboard
+                                        :ARG1-of (c6 / close-01
+                                                     :frequency (a2 / always)))))
+            :ARG2 (n1 / nobody
+                      :mod (a1 / again)))
+   :op3 (c2 / contrast-01
+            :ARG1 (l2 / look-01
+                      :ARG1 (i1 / inside
+                                :op1 (b / bin
+                                        :ARG0-of (c7 / contain-01
+                                                     :ARG1 (a3 / and
+                                                               :op1 (s / sawdust)
+                                                               :op2 (s1 / shaving
+                                                                        :mod (w / wood))))))
+                      :ARG0 h)
+            :ARG2 (n2 / nobody))
+   :op4 (c3 / contrast-01
+            :ARG1 (o / open-01
+                     :ARG0 h
+                     :ARG1 (d / door
+                              :part-of (w1 / workshop))
+                     :purpose (g / glance-01
+                                 :ARG0 h
+                                 :ARG1 (s2 / street)))
+            :ARG2 (n3 / nobody)))
+
+# ::id 13
+# ::snt
+# ::save-date Wed Aug 13, 2025 16:40 14:50
+(zzz0 / have-condition-91
+      :ARG2 (a / amr-unknown))
+
+# ::id 14
+# ::snt
+# ::save-date Fri Jun 27, 2025 14:50 16:54
+(s / say-01
+   :ARG0 (p / person
+            :name (n / name
+                     :op1 "Mastro"
+                     :op2 "Cherry")
+            :wiki -)
+   :ARG1 (u / understand-01
+            :ARG0 p)
+   :time (a / and
+            :op1 (l / laugh-01
+                    :ARG0 p)
+            :op2 (s1 / scratch-02
+                     :ARG0 p
+                     :ARG1 (w / wig
+                              :poss p))))
+
+# ::id 15
+# ::snt
+# ::save-date Fri Jun 27, 2025 14:50
+(c1 / clear-06
+    :ARG1 (i / imagine-01
+             :ARG0 (i1 / i)
+             :ARG1 (v / voice
+                      :mod (t / this))))
+
+# ::id 16
+# ::snt
+# ::save-date Fri Jun 27, 2025 14:50
+(g / get_back-10
+   :ARG1 (i / i)
+   :ARG2 (w / work-01)
+   :mode "imperative")
+
+# ::id 17
+# ::snt
+# ::save-date Wed Aug 13, 2025 16:54 14:50
+(a / and
+   :op2 (h2 / hit-01
+            :ARG0 (h / he)
+            :ARG1 (w / wood)
+            :mod (a2 / again)
+            :ARG1-of (s / solemnize-01
+                        :ARG0 h)
+            :time (p / pick_up-04
+                     :ARG0 h
+                     :ARG1 a1
+                     :instrument (h1 / hand
+                                     :part-of h))
+            :ARG2 (a1 / adze)))
+
+# ::id 18
+# ::snt
+# ::save-date Fri Jun 27, 2025 14:50
+(c / cry-01
+   :ARG0 (v / voice
+            :mod (s / same))
+   :ARG1 (h / hurt-01
+            :ARG1 v))
+
+# ::id 19
+# ::snt
+# ::save-date Fri Aug 15, 2025 13:36 16:20
+(l / leave-13
+   :time (t / time
+            :mod (t1 / this))
+   :ARG1 (s / stun-01
+            :ARG1 (p / person
+                     :name (n / name
+                              :op1 "Mastro"
+                              :op2 "Cherry")
+                     :wiki -)
+            :manner (a / and
+                       :op3 (h / hang-01
+                               :direction (t3 / to
+                                              :op1 (c / chin
+                                                      :part-of p))
+                               :ARG0 (t2 / tongue
+                                         :part-of p))
+                       :op1 (o / open-01
+                               :ARG1 (e / eye
+                                        :part-of p)
+                               :manner (w / wide-02)
+                               :ARG1-of (c1 / cause-01
+                                            :ARG0 (f / fear-01)))
+                       :op2 (g / gape-01
+                               :ARG0 p))))
+
+# ::id 20
+# ::snt
+# ::save-date Wed Aug 13, 2025 16:04 15:38
+(b / begin-02
+   :time (c / come_to_senses-00
+            :ARG0 (h / he))
+   :ARG1 (s / speak-01
+            :ARG0 h
+            :manner (a / and
+                       :op1 (t / tremble-01
+                               :ARG0 h)
+                       :op2 (s1 / stutter-01
+                                :ARG0 h)
+                       :ARG1-of (c1 / cause-01
+                                    :ARG0 (f / fear-01
+                                             :ARG0 h)))
+            :ARG1 (c2 / contrast-01
+                      :ARG2 (c3 / come-01
+                                :ARG1 (v / voice
+                                         :mod (l / little-01)
+                                         :ARG0-of (s2 / say-01
+                                                      :ARG1 (o / ouch
+                                                               :mode "expressive")))
+                                :ARG3 (a1 / amr-unknown)))))
+
+# ::id 21
+# ::snt
+# ::save-date Wed Aug 13, 2025 16:04
+(a / and
+   :op2 (zzz0 / be-located-at-91
+              :ARG1 (s1 / soul
+                        :ARG0-of (l / live-01))
+              :ARG2 (h / here)
+              :polarity -
+              :mod (s2 / still)))
+
+# ::id 22
+# ::snt
+# ::save-date Wed Aug 13, 2025 16:40
+(p / possible-01
+   :ARG1 (l / learn-01
+            :ARG1 (c / cry-02
+                     :ARG1-of (s / like-04
+                                 :ARG2 (c1 / child)))
+            :ARG0 (w / wood)
+            :manner (i / incidentally))
+   :polarity (a / amr-unknown))
+
+# ::id 23
+# ::snt
+# ::save-date Thu Aug 14, 2025 16:12 16:04
+(p / possible-01
+   :ARG1 (b / believe-01
+            :ARG0 (i / i))
+   :polarity -)
+
+# ::id 24
+# ::snt
+# ::save-date Wed Aug 13, 2025 16:40
+(a / and
+   :op1 (s / like-04
+           :ARG1 (w / wood
+                    :mod (t / this))
+           :ARG2 (w1 / wood
+                     :mod (o / other
+                             :mod (a1 / any))))
+   :op2 (e / enough-01
+           :ARG1 w
+           :ARG3 (c / cook-01
+                    :ARG1 (b / bean
+                             :quant (p / pot)))
+           :condition (t1 / throw-01
+                          :ARG2 (f / fire)
+                          :ARG0 (i / i)
+                          :ARG1 w)))
+
+# ::id 25
+# ::snt
+# ::save-date Wed Aug 13, 2025 16:40
+(zzz0 / have-condition-91
+      :ARG2 (a / amr-unknown))
+
+# ::id 26
+# ::snt
+# ::save-date Wed Aug 13, 2025 16:40
+(p / possible-01
+   :ARG1 (h / hide-01
+            :location (i / in
+                         :op1 (i1 / it))
+            :ARG0 (s / someone))
+   :polarity (a / amr-unknown))
+
+# ::id 27
+# ::snt
+# ::save-date Thu Aug 14, 2025 19:44 16:54 15:38
+(h / hide-01
+   :ARG0 (s / someone)
+   :condition (b / bad-04
+                 :degree (m / more
+                            :mod (e / even))
+                 :ARG2 s))
+
+# ::id 28
+# ::snt
+# ::save-date Thu Aug 14, 2025 10:50 17:11
+(s / sort-01
+   :ARG0 (i / i)
+   :ARG1 (i2 / it)
+   :time (n / now))
+
+# ::id 29
+# ::snt
+# ::save-date Thu Aug 14, 2025 15:57 
+(a / and
+   :op1 (g / grab-01
+           :time (s / say-01
+                    :ARG0 h
+                    :ARG1 (w / word
+                             :mod (t / these)))
+           :ARG0 (h / he)
+           :instrument (h1 / hand
+                           :part-of h
+                           :mod (b1 / both))
+           :ARG1 (w1 / wood
+                     :ARG1-of (p / poor-01)))
+   :op2 (b / begin-02
+           :ARG1 (s1 / slam-01
+                     :ARG1 w1
+                     :ARG2 (w2 / wall
+                               :part-of (w3 / workshop))
+                     :ARG0 h
+                     :manner (m / mercilessly))))
+
+# ::id 30
+# ::snt
+# ::save-date Thu Aug 14, 2025 10:55 
+(l / listen-01
+   :time (a / after)
+   :ARG0 (h / he)
+   :purpose (h1 / hear-01
+                :ARG1 (t / truth-value
+                         :polarity-of (s / sound-02
+                                         :ARG0 (v / voice
+                                                  :ARG0-of (w / whimper-01)
+                                                  :mod (l1 / little))
+                                         :mod (a1 / again)))
+                :ARG0 h))
+
+# ::id 31
+# ::snt
+# ::save-date Thu Aug 14, 2025 11:04 
+(a / and
+   :op1 (c / contrast-01
+           :ARG1 (w2 / wait-01
+                     :duration (t / temporal-quantity
+                                  :quant 2
+                                  :unit (m / minute))
+                     :ARG0 (h / he))
+           :ARG2 (n / nothing))
+   :op2 (c1 / contrast-01
+            :ARG1 (w / wait-01
+                     :ARG0 h
+                     :duration (t1 / temporal-quantity
+                                   :quant 5
+                                   :unit (m1 / minute)))
+            :ARG2 (n1 / nothing
+                      :mod (a1 / again)))
+   :op3 (c2 / contrast-01
+            :ARG1 (w1 / wait-01
+                      :ARG0 h
+                      :duration (t2 / temporal-quantity
+                                    :unit (m2 / minute)
+                                    :quant 10))
+            :ARG2 (n2 / nothing
+                      :mod (s / still))))
+
+# ::id 32
+# ::snt
+# ::save-date Thu Aug 14, 2025 13:48 
+(u / utter-01
+   :ARG1 (u1 / understand-01
+             :ARG0 p)
+   :time (t / then)
+   :ARG0 (p / person
+            :name (n / name
+                     :op1 "Mastro"
+                     :op2 "Cherry")
+            :wiki -)
+   :time (a / and
+            :op1 (f / force-01
+                    :ARG0 p
+                    :ARG2 (l / laugh-01
+                             :ARG0 p))
+            :op2 (r / ruffle-02
+                    :ARG0 p
+                    :ARG1 (w / wig
+                             :poss p))))
+
+# ::id 33
+# ::snt
+# ::save-date Thu Aug 14, 2025 12:04 
+(c / clear-06
+   :ARG1 (i / imagine-01
+            :ARG0 (i1 / i)
+            :ARG1 (v / voice
+                     :mod (l / little)
+                     :mod (t / this)
+                     :ARG0-of (s / say-01
+                                 :ARG1 (o / ouch
+                                          :mode "expressive")))))
+
+# ::id 34
+# ::snt
+# ::save-date Thu Aug 14, 2025 12:07 
+(g / get_back-10
+   :ARG1 (i / i)
+   :ARG2 (w / work-01
+            :ARG0 i)
+   :mode "imperative"
+   :mod (a / again))
+
+# ::id 35
+# ::snt
+# ::save-date Thu Aug 14, 2025 12:12 
+(c / cause-01
+   :ARG0 (f / fear-01
+            :ARG0 (h / he)
+            :degree (v / very))
+   :ARG1 (t / try-01
+            :ARG0 h
+            :ARG1 (h1 / hum-02
+                      :ARG1 (s / something)
+                      :ARG0 h
+                      :purpose (e / encourage-01
+                                  :ARG1 h))))
+
+# ::id 36
+# ::snt
+# ::save-date Thu Aug 14, 2025 19:23 
+(t / take-01
+   :ARG0 (h / he)
+   :ARG1 (p / plane)
+   :purpose (a / and
+               :op1 (g / grate-01
+                       :ARG0 h
+                       :ARG1 (w / wood))
+               :op2 (s / smooth-01
+                       :ARG0 h
+                       :ARG1 w))
+   :duration (t1 / this)
+   :time (a1 / after
+             :op1 (p1 / put_down-17
+                      :ARG0 h
+                      :ARG1 (a2 / adze)
+                      :destination (s1 / side))))
+
+# ::id 37
+# ::snt
+# ::save-date Thu Aug 14, 2025 13:48 
+(h1 / hear-01
+    :ARG1 (v / voice
+             :ARG0-of (s2 / say-01
+                          :ARG1 (d / do-02
+                                   :polarity -
+                                   :mode "imperative"
+                                   :ARG1-of (c / cause-01
+                                               :ARG0 (t / tickle-01
+                                                        :ARG1 v))))
+             :mod (l / little)
+             :mod (s1 / same))
+    :time (s / shave-01
+             :ARG0 h
+             :ARG1 (i / it))
+    :ARG0 (h / he))
+
+# ::id 38
+# ::snt
+# ::save-date Thu Aug 14, 2025 16:04 
+(f / fall-01
+   :time (t / time
+            :mod (t1 / this))
+   :conj-as-if (t2 / thunderstruck)
+   :ARG0 (p / person
+            :name (n / name
+                     :op1 "Mastro"
+                     :op2 "Cherry")
+            :wiki -
+            :ARG1-of (p1 / poor-03)))
+
+# ::id 39
+# ::snt
+# ::save-date Fri Aug 15, 2025 13:36 
+(d / discover-01
+   :ARG1 (s / sit-01
+            :ARG1 h
+            :ARG2 (f / floor))
+   :ARG0 (h / he)
+   :time (o / open-01
+            :mod (a / again)
+            :ARG0 h
+            :ARG1 (e / eye
+                     :part-of h)))
+
+# ::id 40
+# ::snt
+# ::save-date Thu Aug 14, 2025 19:40 
+(a1 / and
+    :op1 (l / look-02
+            :ARG1 (c / change-01
+                     :ARG1 f)
+            :ARG0 (f / face
+                     :part-of (h / he)))
+    :op2 (b / blue-01
+            :ARG1 (t / tip
+                     :part-of (n / nose
+                                 :part-of h)
+                     :ARG1-of (r / red-02
+                                 :frequency (a / always))
+                     :mod (e / even))
+            :ARG1-of (c1 / cause-01
+                         :ARG0 (f1 / fear-01
+                                   :ARG1-of (b1 / big-01)
+                                   :ARG0 h))))
+
