@@ -1,0 +1,751 @@
+# ::id 0
+# ::snt CHAPTER 1
+(z1 / chapter
+    :mod 1)
+
+# ::id 1
+# ::snt How it happened that Mastro Cherry, carpenter, found a piece of wood that wept and laughed like a child.
+(z1 / thing
+    :manner-of (z2 / find-01
+                   :ARG0 (z3 / person
+                             :wiki -
+                             :name (z4 / name
+                                       :op1 "Mastro"
+                                       :op2 "Cherry")
+                             :ARG0-of (z5 / make-01
+                                          :ARG1 (z6 / carpentry)))
+                   :ARG1 (z7 / piece
+                             :consist-of (z8 / wood)
+                             :ARG0-of (z9 / weep-01
+                                          :ARG1-of (z10 / resemble-01
+                                                        :ARG2 (z11 / child)))
+                             :ARG0-of (z12 / laugh-01
+                                           :ARG1-of z10))))
+
+# ::id 2
+# ::snt Centuries ago there lived—
+(z1 / live-01
+    :time (z2 / before
+              :op1 (z3 / now)
+              :quant (z4 / multiple
+                         :op1 (z5 / temporal-quantity
+                                  :quant 1
+                                  :unit (z6 / century)))))
+
+# ::id 3
+# ::snt “A king!” my little readers will say immediately.
+(z1 / say-01
+    :ARG0 (z2 / person
+              :ARG0-of (z3 / read-01
+                           :ARG1 (z4 / i))
+              :mod (z5 / little))
+    :ARG1 (z6 / king)
+    :time (z7 / immediate))
+
+# ::id 4
+# ::snt No, children, you are mistaken.
+(z1 / mistake-02
+    :ARG0 (z2 / child)
+    :ARG1 (z3 / no))
+
+# ::id 5
+# ::snt Once upon a time there was a piece of wood.
+(z1 / piece
+    :consist-of (z2 / wood)
+    :time (z3 / once-upon-a-time))
+
+# ::id 6
+# ::snt It was not an expensive piece of wood.
+(z1 / piece
+    :polarity -
+    :consist-of (z2 / wood)
+    :mod (z3 / expensive)
+    :domain (z4 / it))
+
+# ::id 7
+# ::snt Far from it.
+(z1 / it
+    :location (z2 / far
+                  :direction (z3 / from)))
+
+# ::id 8
+# ::snt Just a common block of firewood, one of those thick, solid logs that are put on the fire in winter to make cold rooms cozy and warm.
+(z1 / block
+    :consist-of (z2 / firewood)
+    :mod (z3 / common)
+    :mod (z4 / just)
+    :ARG1-of (z5 / include-91
+                 :ARG2 (z6 / log
+                           :ARG1-of (z7 / thick-03)
+                           :ARG1-of (z8 / solid-02)
+                           :ARG1-of (z9 / put-01
+                                        :ARG2 (z10 / fire)
+                                        :time (z11 / date-entity
+                                                   :season (z12 / winter))
+                                        :purpose (z13 / make-02
+                                                      :ARG0 z6
+                                                      :ARG1 (z14 / and
+                                                                 :op1 (z15 / cozy)
+                                                                 :op2 (z16 / warm-07))
+                                                      :ARG2 (z17 / room
+                                                                 :ARG1-of (z18 / cold-01)))))))
+
+# ::id 9
+# ::snt I do not know how this really happened, yet the fact remains that one fine day this piece of wood found itself in the shop of an old carpenter.
+(z1 / have-concession-91
+    :ARG1 (z2 / remain-01
+              :ARG1 (z3 / fact
+                        :topic (z4 / find-01
+                                   :ARG0 (z5 / piece
+                                             :consist-of (z6 / wood)
+                                             :mod (z7 / this))
+                                   :ARG1 z5
+                                   :location (z8 / shop
+                                                 :poss (z9 / person
+                                                           :ARG0-of (z10 / make-01
+                                                                         :ARG1 (z11 / wood))
+                                                           :mod (z12 / old)))
+                                   :time (z13 / day
+                                              :mod (z14 / fine)))))
+    :ARG2 (z15 / know-01
+               :polarity -
+               :ARG0 (z16 / i)
+               :ARG1 (z17 / thing
+                          :manner-of (z18 / this
+                                          :ARG1-of (z19 / real-04)))))
+
+# ::id 10
+# ::snt His real name was Mastro Antonio, but everyone called him Mastro Cherry, for the tip of his nose was so round and red and shiny that it looked like a ripe cherry.
+(z1 / contrast-01
+    :ARG1 (z2 / name-01
+              :ARG1 (z3 / he)
+              :ARG2 (z4 / person
+                        :wiki -
+                        :name (z5 / name
+                                  :op1 "Mastro"
+                                  :op2 "Antonio"))
+              :ARG1-of (z6 / real-04))
+    :ARG2 (z7 / call-01
+              :ARG0 (z8 / everyone)
+              :ARG1 z3
+              :ARG2 (z9 / person
+                        :wiki -
+                        :name (z10 / name
+                                   :op1 "Mastro"
+                                   :op2 "Cherry"))
+              :ARG1-of (z11 / cause-01
+                            :ARG0 (z12 / and
+                                       :op1 (z13 / round-06
+                                                 :ARG1 (z14 / tip
+                                                            :part-of (z15 / nose
+                                                                          :part-of z3))
+                                                 :ARG2-of (z16 / have-degree-91
+                                                               :ARG1 z14
+                                                               :ARG3 (z17 / so)
+                                                               :ARG6 (z18 / look-02
+                                                                          :ARG0 z14
+                                                                          :ARG1 (z19 / cherry
+                                                                                     :ARG1-of (z20 / ripe-02)))))
+                                       :op2 (z21 / red-02
+                                                 :ARG1 z14)
+                                       :op3 (z22 / shine-01
+                                                 :ARG1 z14)))))
+
+# ::id 11
+# ::snt As soon as he saw that piece of wood, Mastro Cherry was filled with joy.
+(z1 / fill-01
+    :ARG1 (z2 / person
+              :wiki -
+              :name (z3 / name
+                        :op1 "Mastro"
+                        :op2 "Cherry"))
+    :ARG2 (z4 / joy)
+    :time (z5 / as-soon-as
+              :op1 (z6 / see-01
+                       :ARG0 z2
+                       :ARG1 (z7 / piece
+                                 :mod (z8 / wood)
+                                 :mod (z9 / that)))))
+
+# ::id 12
+# ::snt Rubbing his hands together happily, he mumbled half to himself: “This has come in the nick of time.
+(z1 / mumble-01
+    :ARG0 (z2 / he)
+    :ARG1 (z3 / come-03
+              :ARG1 (z4 / this)
+              :time (z5 / nick
+                        :op1 (z6 / time)))
+    :manner (z7 / half)
+    :manner (z8 / rub-01
+                :ARG0 z2
+                :ARG1 (z9 / hand
+                          :part-of z2)
+                :manner (z10 / together)
+                :ARG0-of (z11 / happy-01)))
+
+# ::id 13
+# ::snt I shall use it to make the leg of a table.”
+(z1 / use-01
+    :ARG0 (z2 / i)
+    :ARG1 (z3 / it)
+    :ARG2 (z4 / make-01
+              :ARG0 z2
+              :ARG1 (z5 / leg
+                        :part-of (z6 / table))
+              :ARG2 z3))
+
+# ::id 14
+# ::snt He grasped the hatchet quickly to peel off the bark and shape the wood.
+(z1 / grasp-01
+    :ARG0 (z2 / he)
+    :ARG1 (z3 / hatchet)
+    :ARG1-of (z4 / quick-02)
+    :purpose (z5 / and
+                 :op1 (z6 / peel-off-03
+                          :ARG0 z2
+                          :ARG1 (z7 / bark))
+                 :op2 (z8 / shape-01
+                          :ARG0 z2
+                          :ARG1 (z9 / wood))))
+
+# ::id 15
+# ::snt But as he was about to give it the first blow, he stood still with arm uplifted, for he had heard a wee, little voice say in a beseeching tone: “Please be careful!
+(z1 / contrast-01
+    :ARG2 (z2 / cause-01
+              :ARG0 (z3 / hear-01
+                        :ARG0 z15
+                        :ARG1 (z4 / care-04
+                                  :polite +
+                                  :mode imperative
+                                  :ARG0 z6
+                                  :ARG1 z6)
+                        :ARG2 (z5 / voice
+                                  :mod (z6 / wee)
+                                  :mod (z7 / little))
+                        :manner (z8 / tone
+                                    :ARG0-of (z9 / beseech-01)))
+              :ARG1 (z10 / stand-01
+                         :ARG1 (z11 / he)
+                         :manner (z12 / still)
+                         :manner (z13 / uplift-01
+                                      :ARG1 (z14 / arm
+                                                 :part-of z11))
+                         :time (z15 / about-to
+                                    :op1 (z16 / blow-14
+                                              :ARG0 z11
+                                              :ARG1 (z17 / it)
+                                              :ord (z18 / ordinal-entity
+                                                        :value 1))))))
+
+# ::id 16
+# ::snt Do not hit me so hard!”
+(z1 / hit-01
+    :mode imperative
+    :polarity -
+    :ARG0 (z2 / you)
+    :ARG1 (z3 / i)
+    :ARG1-of (z4 / hard-02
+                 :degree (z5 / so)))
+
+# ::id 17
+# ::snt What a look of surprise shone on Mastro Cherry’s face!
+(z1 / shine-01
+    :ARG1 (z2 / look-01
+              :ARG0 z5
+              :ARG1 (z3 / surprise-01
+                        :ARG1 z5)
+              :degree (z4 / so))
+    :ARG2 (z5 / face
+              :part-of (z6 / person
+                           :wiki -
+                           :name (z7 / name
+                                     :op1 "Mastro"
+                                     :op2 "Cherry"))))
+
+# ::id 18
+# ::snt His funny face became still funnier.
+(z1 / become-01
+    :ARG1 (z2 / face
+              :ARG1-of (z3 / funny-02)
+              :part-of (z4 / he))
+    :ARG2 (z5 / have-degree-91
+              :ARG1 z2
+              :ARG2 (z6 / funny-02
+                        :ARG1 z2)
+              :ARG3 (z7 / more)
+              :mod (z8 / still)))
+
+# ::id 19
+# ::snt He turned frightened eyes about the room to find out where that wee, little voice had come from and he saw no one!
+(z1 / and
+    :op1 (z2 / turn-01
+             :ARG0 (z3 / he)
+             :ARG1 (z4 / eye
+                       :ARG1-of (z5 / frighten-01))
+             :direction (z6 / about
+                            :op1 (z7 / room))
+             :purpose (z8 / find-out-03
+                          :ARG0 z3
+                          :ARG1 (z9 / location
+                                    :ARG3-of (z10 / come-01
+                                                  :ARG1 (z11 / voice
+                                                             :mod (z12 / wee)
+                                                             :mod (z13 / little))))))
+    :op2 (z14 / see-01
+              :ARG0 z3
+              :ARG1 (z15 / no-one)))
+
+# ::id 20
+# ::snt He looked under the bench—no one!
+(z1 / multi-sentence
+    :snt1 (z2 / look-01
+              :ARG0 (z3 / he)
+              :ARG1 (z4 / under
+                        :op1 (z5 / bench)))
+    :snt2 (z6 / no-one))
+
+# ::id 21
+# ::snt He peeped inside the closet—no one!
+(z1 / peep-01
+    :ARG0 (z2 / he
+              :ARG2-of (z3 / mean-01
+                           :ARG1 (z4 / no-one)))
+    :ARG1 (z5 / closet))
+
+# ::id 22
+# ::snt He searched among the shavings—no one!
+(z1 / multi-sentence
+    :snt1 (z2 / search-01
+              :ARG0 (z3 / he)
+              :ARG1 (z4 / among
+                        :op1 (z5 / shavings)))
+    :snt2 (z6 / no-one
+              :mode expressive))
+
+# ::id 23
+# ::snt He opened the door to look up and down the street—and still no one!
+(z1 / and
+    :op1 (z2 / open-01
+             :ARG0 (z3 / he)
+             :ARG1 (z4 / door)
+             :purpose (z5 / look-01
+                          :ARG0 z3
+                          :ARG1 (z6 / street)
+                          :direction (z7 / and
+                                         :op1 (z8 / up)
+                                         :op2 (z9 / down))))
+    :op2 (z10 / no-one
+              :mod (z11 / still)))
+
+# ::id 24
+# ::snt “Oh, I see!” he then said, laughing and scratching his Wig.
+(z1 / say-01
+    :ARG0 (z2 / he
+              :ARG0-of (z3 / laugh-01)
+              :ARG0-of (z4 / scratch-02
+                           :ARG1 (z5 / wig
+                                     :poss z2)))
+    :ARG1 (z6 / see-01
+              :ARG0 z2
+              :mod (z7 / oh
+                       :mode expressive))
+    :time (z8 / then))
+
+# ::id 25
+# ::snt “It can easily be seen that I only thought I heard the tiny voice say the words!
+(z1 / possible-01
+    :ARG1 (z2 / see-01
+              :ARG1 (z3 / think-01
+                        :ARG0 (z4 / i)
+                        :ARG1 (z5 / hear-01
+                                  :ARG0 z4
+                                  :ARG1 (z6 / say-01
+                                            :ARG0 (z7 / voice
+                                                      :mod (z8 / tiny))
+                                            :ARG1 (z9 / word)))
+                        :mod (z10 / only)))
+    :ARG1-of (z11 / easy-05))
+
+# ::id 26
+# ::snt Well, well—to work once more.”
+(z1 / work-01
+    :mod (z2 / again
+             :mod (z3 / once))
+    :mod (z4 / well))
+
+# ::id 27
+# ::snt He struck a most solemn blow upon the piece of wood.
+(z1 / strike-01
+    :ARG0 (z2 / he)
+    :ARG1 (z3 / piece
+              :consist-of (z4 / wood))
+    :ARG2 (z5 / blow-01
+              :ARG1-of (z6 / have-degree-91
+                           :ARG2 (z7 / solemn)
+                           :ARG3 (z8 / most))))
+
+# ::id 28
+# ::snt “Oh, oh!
+(z1 / oh
+    :mode expressive)
+
+# ::id 29
+# ::snt You hurt!” cried the same far-away little voice.
+(z1 / cry-01
+    :ARG0 (z2 / voice
+              :mod (z3 / little)
+              :ARG1-of (z4 / same-01)
+              :location (z5 / far
+                            :direction (z6 / away)))
+    :ARG1 (z7 / hurt-01
+              :ARG1 (z8 / you)))
+
+# ::id 30
+# ::snt Mastro Cherry grew dumb, his eyes popped out of his head, his mouth opened wide, and his tongue hung down on his chin.
+(z1 / and
+    :op1 (z2 / grow-02
+             :ARG1 (z3 / person
+                       :wiki -
+                       :name (z4 / name
+                                 :op1 "Mastro"
+                                 :op2 "Cherry"))
+             :ARG2 (z5 / dumb))
+    :op2 (z6 / pop-out-03
+             :ARG1 (z7 / eye
+                       :part-of z3)
+             :source (z8 / head
+                         :part-of z3))
+    :op3 (z9 / open-01
+             :ARG1 (z10 / mouth
+                        :part-of z3)
+             :ARG2 (z11 / wide-02))
+    :op4 (z12 / hang-01
+              :ARG1 (z13 / tongue
+                         :part-of z3)
+              :ARG2 (z14 / chin
+                         :part-of z3)
+              :direction (z15 / down)))
+
+# ::id 31
+# ::snt As soon as he regained the use of his senses, he said, trembling and stuttering from fright: “Where did that voice come from, when there is no one around?
+(z1 / say-01
+    :ARG0 (z2 / he
+              :ARG1-of (z3 / tremble-01
+                           :ARG1-of (z4 / cause-01
+                                        :ARG0 (z5 / frighten-01
+                                                  :ARG1 z2)))
+              :ARG0-of (z6 / stutter-01
+                           :ARG1-of z4))
+    :ARG1 (z7 / come-01
+              :ARG1 (z8 / voice
+                        :mod (z9 / that))
+              :ARG3 (z10 / amr-unknown)
+              :time (z11 / no-one
+                         :location (z12 / around)))
+    :time (z13 / as-soon-as
+               :op1 (z14 / regain-01
+                         :ARG0 z2
+                         :ARG1 (z15 / use-01
+                                    :ARG0 z2
+                                    :ARG1 (z16 / sense-01
+                                               :ARG0 z2)))))
+
+# ::id 32
+# ::snt Might it be that this piece of wood has learned to weep and cry like a child?
+(z1 / possible-01
+    :ARG1 (z2 / learn-01
+              :ARG0 (z3 / piece
+                        :consist-of (z4 / wood)
+                        :mod (z5 / this))
+              :ARG1 (z6 / and
+                        :op1 (z7 / weep-01
+                                 :ARG0 z3)
+                        :op2 (z8 / cry-02
+                                 :ARG0 z3)
+                        :ARG1-of (z9 / resemble-01
+                                     :ARG2 (z10 / child))))
+    :polarity (z11 / amr-unknown))
+
+# ::id 33
+# ::snt I can hardly believe it.
+(z1 / possible-01
+    :ARG1 (z2 / believe-01
+              :ARG0 (z3 / i)
+              :ARG1 (z4 / it)
+              :mod (z5 / hardly)))
+
+# ::id 34
+# ::snt Here it is—a piece of common firewood, good only to burn in the stove, the same as any other.
+(z1 / piece
+    :consist-of (z2 / firewood
+                    :mod (z3 / common))
+    :ARG1-of (z4 / good-04
+                 :ARG2 (z5 / burn-01
+                           :location (z6 / stove)
+                           :mod (z7 / only)))
+    :ARG1-of (z8 / same-01
+                 :ARG2 (z9 / other
+                           :mod (z10 / any)))
+    :location (z11 / here))
+
+# ::id 35
+# ::snt Yet—might someone be hidden in it?
+(z1 / have-concession-91
+    :ARG1 (z2 / possible-01
+              :ARG1 (z3 / hide-01
+                        :ARG1 (z4 / someone)
+                        :ARG2 (z5 / it))
+              :polarity (z6 / amr-unknown)))
+
+# ::id 36
+# ::snt If so, the worse for him.
+(z1 / bad-04
+    :ARG1 (z2 / so)
+    :ARG2 (z3 / he)
+    :ARG2-of (z4 / have-degree-91
+                 :ARG1 z2
+                 :ARG3 (z5 / more)))
+
+# ::id 37
+# ::snt I’ll fix him!”
+(z1 / fix-02
+    :mode expressive
+    :ARG0 (z2 / i)
+    :ARG1 (z3 / he))
+
+# ::id 38
+# ::snt With these words, he grabbed the log with both hands and started to knock it about unmercifully.
+(z1 / and
+    :op1 (z2 / grab-01
+             :ARG0 (z3 / he)
+             :ARG1 (z4 / log)
+             :instrument (z5 / hand
+                             :mod (z6 / both)))
+    :op2 (z7 / start-01
+             :ARG0 z3
+             :ARG1 (z8 / knock-01
+                       :ARG0 z3
+                       :ARG1 z4
+                       :direction (z9 / about)
+                       :manner (z10 / merciful
+                                    :polarity -)))
+    :manner (z11 / word-01
+                 :ARG0 z3
+                 :mod (z12 / this)))
+
+# ::id 39
+# ::snt He threw it to the floor, against the walls of the room, and even up to the ceiling.
+(z1 / throw-01
+    :ARG0 (z2 / he)
+    :ARG1 (z3 / it)
+    :destination (z4 / and
+                     :op1 (z5 / floor)
+                     :op2 (z6 / against
+                              :op1 (z7 / wall
+                                       :part-of (z8 / room)))
+                     :op3 (z9 / up-03
+                              :ARG2 (z10 / ceiling)
+                              :mod (z11 / even))))
+
+# ::id 40
+# ::snt He listened for the tiny voice to moan and cry.
+(z1 / listen-01
+    :ARG0 (z2 / he)
+    :ARG1 (z3 / and
+              :op1 (z4 / moan-01
+                       :ARG0 (z5 / voice
+                                 :mod (z6 / tiny)))
+              :op2 (z7 / cry-02
+                       :ARG0 z5)))
+
+# ::id 41
+# ::snt He waited two minutes—nothing; five minutes—nothing; ten minutes—nothing.
+(z1 / and
+    :op1 (z2 / wait-01
+             :ARG1 (z3 / he)
+             :duration (z4 / temporal-quantity
+                           :quant 2
+                           :unit (z5 / minute))
+             :mod (z6 / nothing))
+    :op2 (z7 / wait-01
+             :ARG1 z3
+             :duration (z8 / temporal-quantity
+                           :quant 5
+                           :unit (z9 / minute))
+             :mod z6)
+    :op3 (z10 / wait-01
+              :ARG1 z3
+              :duration (z11 / temporal-quantity
+                             :quant 10
+                             :unit (z12 / minute))
+              :mod z6))
+
+# ::id 42
+# ::snt “Oh, I see,” he said, trying bravely to laugh and ruffling up his wig with his hand.
+(z1 / say-01
+    :ARG0 (z2 / he
+              :ARG0-of (z3 / try-01
+                           :ARG1 (z4 / laugh-01
+                                     :ARG0 z2)
+                           :manner (z5 / brave-02
+                                       :ARG0 z2))
+              :ARG0-of (z6 / ruffle-01
+                           :ARG1 (z7 / wig
+                                     :poss z2)
+                           :instrument (z8 / hand
+                                           :part-of z2)))
+    :ARG1 (z9 / see-01
+              :ARG0 z2
+              :mod (z10 / oh
+                        :mode expressive)))
+
+# ::id 43
+# ::snt “It can easily be seen I only imagined I heard the tiny voice!
+(z1 / multi-sentence
+    :snt1 (z2 / possible-01
+              :ARG1 (z3 / see-01
+                        :ARG1 (z4 / it)
+                        :ARG1-of (z5 / easy-05)))
+    :snt2 (z6 / imagine-01
+              :ARG0 (z7 / i)
+              :ARG1 (z8 / hear-01
+                        :ARG0 z7
+                        :ARG1 (z9 / voice
+                                  :mod (z10 / tiny)))
+              :mod (z11 / only)))
+
+# ::id 44
+# ::snt Well, well—to work once more!”
+(z1 / work-01
+    :mod (z2 / again
+             :mod (z3 / once))
+    :mod (z4 / well
+             :mode expressive))
+
+# ::id 45
+# ::snt The poor fellow was scared half to death, so he tried to sing a gay song in order to gain courage.
+(z1 / scare-01
+    :ARG1 (z2 / fellow
+              :mod (z3 / poor))
+    :degree (z4 / die-01
+                :ARG1 z2
+                :degree (z5 / half))
+    :ARG0-of (z6 / cause-01
+                 :ARG1 (z7 / try-01
+                           :ARG0 z2
+                           :ARG1 (z8 / sing-01
+                                     :ARG0 z2
+                                     :ARG1 (z9 / song
+                                               :ARG1-of (z10 / gay-01)))
+                           :purpose (z11 / gain-01
+                                         :ARG0 z2
+                                         :ARG1 (z12 / courage)))))
+
+# ::id 46
+# ::snt He set aside the hatchet and picked up the plane to make the wood smooth and even, but as he drew it to and fro, he heard the same tiny voice.
+(z1 / contrast-01
+    :ARG1 (z2 / and
+              :op1 (z3 / set-01
+                       :ARG0 (z4 / he)
+                       :ARG1 (z5 / hatchet)
+                       :ARG2 (z6 / aside))
+              :op2 (z7 / pick-up-04
+                       :ARG0 z4
+                       :ARG1 (z8 / plane))
+              :purpose (z9 / make-02
+                           :ARG0 z4
+                           :ARG1 (z10 / and
+                                      :op1 (z11 / smooth-04
+                                                :ARG1 (z12 / wood))
+                                      :op2 (z13 / even-02
+                                                :ARG1 z12))))
+    :ARG2 (z14 / hear-01
+               :ARG0 z4
+               :ARG1 (z15 / voice
+                          :mod (z16 / tiny)
+                          :ARG1-of (z17 / same-01))
+               :time (z18 / draw-01
+                          :ARG0 z4
+                          :ARG1 z12
+                          :path (z19 / and
+                                     :op1 (z20 / forth)
+                                     :op2 (z21 / forth)))))
+
+# ::id 47
+# ::snt This time it giggled as it spoke: “Stop it!
+(z1 / giggle-01
+    :ARG0 (z2 / it)
+    :time (z3 / speak-01
+              :ARG0 z2
+              :ARG1 (z4 / stop-01
+                        :mode imperative
+                        :ARG0 (z5 / you)
+                        :ARG1 (z6 / it)))
+    :time (z7 / time
+              :mod (z8 / this)))
+
+# ::id 48
+# ::snt Oh, stop it!
+(z1 / stop-01
+    :mode imperative
+    :ARG0 (z2 / you)
+    :ARG1 (z3 / it)
+    :mod (z4 / oh
+             :mode expressive))
+
+# ::id 49
+# ::snt Ha, ha, ha!
+(z1 / ha
+    :mode expressive)
+
+# ::id 50
+# ::snt You tickle my stomach.”
+(z1 / tickle-01
+    :ARG0 (z2 / you)
+    :ARG1 (z3 / stomach
+              :part-of (z4 / i)))
+
+# ::id 51
+# ::snt This time poor Mastro Cherry fell as if shot.
+(z1 / fall-01
+    :ARG1 (z2 / person
+              :wiki -
+              :name (z3 / name
+                        :op1 "Mastro"
+                        :op2 "Cherry")
+              :mod (z4 / poor))
+    :time (z5 / time
+              :mod (z6 / this))
+    :manner (z7 / shoot-02))
+
+# ::id 52
+# ::snt When he opened his eyes, he found himself sitting on the floor.
+(z1 / find-01
+    :ARG0 (z2 / he)
+    :ARG1 (z3 / sit-01
+              :ARG1 z2
+              :ARG2 (z4 / floor))
+    :time (z5 / open-01
+              :ARG0 z2
+              :ARG1 (z6 / eye
+                        :part-of z2)))
+
+# ::id 53
+# ::snt His face had changed; fright had turned even the tip of his nose from red to deepest purple
+(z1 / and
+    :op1 (z2 / change-01
+             :ARG1 (z3 / face
+                       :part-of (z4 / he)))
+    :op2 (z5 / turn-02
+             :ARG0 (z6 / frighten-01)
+             :ARG1 (z7 / tip
+                       :part-of (z8 / nose
+                                    :part-of z4)
+                       :mod (z9 / even))
+             :ARG3 (z10 / red-02)
+             :ARG4 (z11 / purple-02
+                        :ARG1 z7
+                        :ARG1-of (z12 / have-degree-91
+                                      :ARG2 (z13 / deep-02
+                                                 :ARG1 z11)
+                                      :ARG3 (z14 / most)))))

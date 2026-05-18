@@ -1,0 +1,661 @@
+# ::id 0
+# ::snt
+(z1 / chapter
+    :mod 1)
+
+# ::id 1
+# ::snt
+(z1 / find-01
+    :ARG0 (z2 / person
+              :wiki -
+              :name (z3 / name
+                        :op1 "Maître"
+                        :op2 "Cerise")
+              :ARG0-of (z4 / bake-01))
+    :ARG1 (z5 / piece
+              :part-of (z6 / wood)
+              :ARG0-of (z7 / cry-02
+                           :ARG1-of (z8 / resemble-01
+                                        :ARG2 (z9 / child)))
+              :ARG0-of (z10 / laugh-01
+                            :ARG1-of z8))
+    :manner (z11 / amr-unknown))
+
+# ::id 2
+# ::snt
+(z1 / time
+    :mod (z2 / one)
+    :domain (z3 / he))
+
+# ::id 3
+# ::snt
+(z1 / tell-01
+    :ARG0 (z2 / i)
+    :ARG1 (z3 / person
+              :ARG0-of (z4 / read-01)
+              :mod (z5 / little))
+    :ARG2 (z6 / person
+              :wiki "King_of_the_United_Kingdom"
+              :name (z7 / name
+                        :op1 "King")))
+
+# ::id 4
+# ::snt
+(z1 / say-01
+    :ARG0 (z2 / i)
+    :ARG1 (z3 / wrong-04
+              :ARG1 z4
+              :ARG2 (z4 / it))
+    :ARG2 (z5 / child)
+    :mod (z6 / well
+             :mode expressive))
+
+# ::id 5
+# ::snt
+(z1 / piece
+    :mod (z2 / wood)
+    :domain (z3 / it)
+    :time (z4 / once-upon-a-time))
+
+# ::id 6
+# ::snt
+(z1 / contrast-01
+    :ARG1 (z2 / wood
+              :polarity -
+              :mod (z3 / precious))
+    :ARG2 (z4 / stick
+              :ARG1-of (z5 / simple-02)
+              :ARG1-of (z6 / throw-01
+                           :ARG2 (z7 / and
+                                     :op1 (z8 / fish)
+                                     :op2 z9chard))
+              :time (z10 / date-entity
+                         :season (z11 / winter))))
+
+# ::id 7
+# ::snt
+(z1 / contrast-01
+    :ARG1 (z2 / possible-01
+              :polarity -
+              :ARG1 (z3 / explain-01
+                        :ARG0 (z4 / i)
+                        :ARG1 (z5 / thing
+                                  :manner-of (z6 / find-01
+                                                 :ARG1 (z7 / log
+                                                           :mod (z8 / that)
+                                                           :mod (z9 / lovely))
+                                                 :location (z10 / workshop
+                                                                :poss (z11 / person
+                                                                           :ARG0-of (z12 / make-01
+                                                                                         :ARG1 (z13 / food))
+                                                                           :mod (z14 / old)
+                                                                           :ARG1-of (z15 / name-01
+                                                                                         :ARG2 (z16 / person
+                                                                                                    :wiki -
+                                                                                                    :name (z17 / name
+                                                                                                               :op1 "Antonio"))
+                                                                                         :concession (z18 / call-01
+                                                                                                          :ARG0 (z19 / everyone)
+                                                                                                          :ARG1 z11
+                                                                                                          :ARG2 (z20 / name
+                                                                                                                     :op1 "Master"
+                                                                                                                     :op2 "Cerise")
+                                                                                                          :ARG1-of (z21 / cause-01
+                                                                                                                        :ARG0 (z22 / eyebrow
+                                                                                                                                   :part-of z11
+                                                                                                                                   :mod (z23 / shiny)
+                                                                                                                                   :ARG1-of (z24 / dark-02)
+                                                                                                                                   :ARG1-of (z25 / dark-02)
+                                                                                                                                   :ARG1-of (z26 / dark-02)
+                                                                                                                                   :ARG1-of (z27 / resemble-01
+                                                                                                                                                 :ARG2 (z28 / cerise
+                                                                                                                                                            :mod (z29 / mold))))))))))))))
+
+# ::id 8
+# ::snt
+(z1 / and
+    :op1 (z2 / burst-02
+             :ARG1 (z3 / person
+                       :wiki -
+                       :name (z4 / name
+                                 :op1 "Master"
+                                 :op2 "Cerise"))
+             :ARG2 (z5 / joy))
+    :op2 (z6 / bumble-01
+             :ARG0 z3
+             :ARG1-of (z7 / cause-01
+                          :ARG0 (z8 / and
+                                    :op1 (z9 / reach-01
+                                             :ARG0 z3
+                                             :ARG1 (z10 / piece
+                                                        :mod (z11 / wood)
+                                                        :mod (z12 / this)))
+                                    :op2 (z13 / grasp-01
+                                              :ARG0 z3
+                                              :ARG1 z10
+                                              :manner (z14 / froth-01
+                                                           :ARG1 z10
+                                                           :location (z15 / hand
+                                                                          :part-of z3))))))
+    :op3 (z16 / arrive-01
+              :ARG1 (z17 / rumble-01
+                         :mod (z18 / this))
+              :ARG4 (z19 / point-04
+                         :ARG1 z17
+                         :ARG2 (z20 / have-04
+                                    :ARG0 z3
+                                    :ARG1 (z21 / use-01
+                                               :ARG0 z3
+                                               :ARG1 z17
+                                               :ARG2 (z22 / make-01
+                                                          :ARG0 z3
+                                                          :ARG1 (z23 / foot)))))))
+
+# ::id 9
+# ::snt
+(z1 / multi-sentence
+    :snt1 (z2 / and
+              :op1 (z3 / say-01
+                       :mod (z4 / now))
+              :op2 (z5 / do-02
+                       :mod (z6 / now)))
+    :snt2 (z7 / take-01
+              :ARG0 (z8 / he)
+              :ARG1 (z9 / axe
+                        :ARG1-of (z10 / beleaguer-01
+                                      :degree (z11 / well))
+                        :poss z8)
+              :purpose (z12 / and
+                            :op1 (z13 / remove-01
+                                      :ARG0 z8
+                                      :ARG1 (z14 / beak))
+                            :op2 (z15 / defile-01
+                                      :ARG0 z8
+                                      :ARG1 z14))))
+
+# ::id 10
+# ::snt
+(z1 / contrast-01
+    :ARG2 (z2 / hang-01
+              :ARG1 (z3 / arm
+                        :part-of (z4 / he))
+              :ARG3 (z5 / air)
+              :time (z6 / go-02
+                        :ARG0 z4
+                        :ARG1 (z7 / shoot-01
+                                  :ord (z8 / ordinal-entity
+                                           :value 1)))
+              :ARG1-of (z9 / cause-01
+                           :ARG0 (z10 / hear-01
+                                      :ARG0 z4
+                                      :ARG1 (z11 / voice-01
+                                                 :ARG1 (z12 / hit-01
+                                                            :mode imperative
+                                                            :polarity -
+                                                            :ARG0 (z13 / you)
+                                                            :degree (z14 / so))
+                                                 :ARG0-of (z15 / supplie-00
+                                                               :ARG1 z4)
+                                                 :mod (z16 / tiny
+                                                           :degree (z17 / very)))
+                                      :mod (z18 / just)))))
+
+# ::id 11
+# ::snt
+(z0 / bark-01
+    :ARG0 (z1 / dog)
+    :ARG1 (z2 / tree))
+
+# ::id 12
+# ::snt
+(z1 / fire-01
+    :ARG0 (z2 / eye
+              :ARG1-of (z3 / wide-02)
+              :part-of (z4 / he))
+    :ARG1 (z5 / round-01
+              :ARG0 z4
+              :ARG1 (z6 / room))
+    :purpose (z7 / figure-out-05
+                 :ARG0 z4
+                 :ARG1 (z8 / location
+                           :location-of (z9 / come-01
+                                            :ARG1 (z10 / voice
+                                                       :ARG1-of (z11 / crack-02)
+                                                       :mod (z12 / that))
+                                            :ARG1-of (z13 / possible-01)
+                                            :ARG1-of (z14 / well-09))))
+    :ARG1-of (z15 / contrast-01
+                  :ARG2 (z16 / see-01
+                             :ARG0 z4
+                             :ARG1 (z17 / no-one))))
+
+# ::id 13
+# ::snt
+(z1 / multi-sentence
+    :snt1 (z2 / look-01
+              :ARG0 (z3 / he)
+              :ARG1 (z4 / under
+                        :op1 (z5 / thing
+                                 :ARG1-of (z6 / establish-01))))
+    :snt2 (z7 / no))
+
+# ::id 14
+# ::snt
+(z1 / contrast-01
+    :ARG1 (z2 / open-01
+              :ARG0 (z3 / he)
+              :ARG1 (z4 / door
+                        :ARG1-of (z5 / close-01
+                                     :mod (z6 / usual))
+                        :mod (z7 / some)))
+    :ARG2 (z8 / no-one
+              :location (z9 / there)))
+
+# ::id 15
+# ::snt
+(z1 / inspect-01
+    :ARG0 (z2 / he)
+    :ARG1 (z3 / cornea
+              :ARG1-of (z4 / fill-01
+                           :ARG2 (z5 / and
+                                     :op1 (z6 / hole)
+                                     :op2 (z7 / spout))))
+    :ARG2 (z8 / nothing))
+
+# ::id 16
+# ::snt
+(z1 / and
+    :op1 (z2 / push-01
+             :ARG0 (z3 / he)
+             :ARG1 (z4 / door
+                       :part-of (z5 / workshop
+                                    :poss z3))
+             :mod (z6 / even))
+    :op2 (z7 / look-01
+             :ARG0 z3
+             :ARG1 (z8 / road)
+             :direction (z9 / out)))
+
+# ::id 17
+# ::snt
+(z1 / live-01
+    :polarity -
+    :mode expressive
+    :ARG0 (z2 / person))
+
+# ::id 18
+# ::snt
+(z1 / contrast-01
+    :ARG2 (z2 / so
+              :mod (z3 / amr-unknown)))
+
+# ::id 19
+# ::snt
+(z1 / say-01
+    :ARG0 (z2 / he)
+    :ARG1 (z3 / understand-01
+              :ARG0 (z4 / i)
+              :ARG1 (z5 / it))
+    :manner (z6 / and
+                :op1 (z7 / laugh-01
+                         :ARG0 z2)
+                :op2 (z8 / dent-01
+                         :ARG0 z2
+                         :ARG1 (z9 / lose-02
+                                   :ARG0 z2))))
+
+# ::id 20
+# ::snt
+(z1 / imagine-01
+    :ARG0 (z2 / i)
+    :ARG1 (z3 / voice
+              :mod (z4 / that)))
+
+# ::id 21
+# ::snt
+(z1 / get-back-10
+    :mode imperative
+    :ARG1 (z2 / we)
+    :ARG2 (z3 / work-01
+              :ARG0 z2))
+
+# ::id 22
+# ::snt
+(z1 / land-01
+    :ARG0 (z2 / he)
+    :ARG1 (z3 / blow-14
+              :ARG0 z2
+              :ARG2 (z4 / piece
+                        :consist-of (z5 / wood))
+              :ARG1-of (z6 / terrific-03))
+    :manner (z7 / clutch-01
+                :ARG0 z2
+                :ARG1 (z8 / axe
+                          :poss z2)
+                :mod (z9 / again)))
+
+# ::id 23
+# ::snt
+(z1 / ouch
+    :mode expressive)
+
+# ::id 24
+# ::snt
+(z1 / wail-01
+    :ARG0 (z2 / voice
+              :mod (z3 / tiny)
+              :ARG1-of (z4 / same-01))
+    :ARG1 (z5 / hurt-01
+              :ARG0 (z6 / you)
+              :ARG1 (z7 / i)))
+
+# ::id 25
+# ::snt
+(z1 / baba
+    :domain (z2 / person
+                :wiki -
+                :name (z3 / name
+                          :op1 "Master"
+                          :op2 "Cerise"))
+    :time (z4 / time
+              :mod (z5 / this)))
+
+# ::id 26
+# ::snt
+(z1 / remain-01
+    :ARG1 (z2 / and
+              :op1 (z3 / mouth
+                       :ARG1-of (z4 / breath-01))
+              :op2 (z5 / tongue
+                       :ARG1-of (z6 / hang-01))
+              :op3 (z7 / eye
+                       :ARG1-of (z8 / extort-01))
+              :ARG1-of (z9 / resemble-01
+                           :ARG2 (z10 / stone
+                                      :part-of (z11 / fathom))))
+    :ARG3 (z12 / away))
+
+# ::id 27
+# ::snt
+(z1 / contrast-01
+    :ARG2 (z2 / possible-01
+              :ARG1 (z3 / get-05
+                        :ARG1 (z4 / voice
+                                  :ARG0-of (z5 / do-02
+                                               :ARG1 (z6 / aha))
+                                  :mod (z7 / that))
+                        :ARG2 (z8 / amr-unknown)
+                        :mod (z9 / well))))
+
+# ::id 28
+# ::snt
+(z1 / have-concession-91
+    :ARG1 (z2 / no-one
+              :location (z3 / here)))
+
+# ::id 29
+# ::snt
+(z1 / or
+    :op2 (z2 / teach-01
+             :ARG0 (z3 / piece
+                       :mod (z4 / wood)
+                       :mod (z5 / that))
+             :ARG1 (z6 / and
+                       :op1 (z7 / cry-02)
+                       :op2 (z8 / whine-01)
+                       :ARG1-of (z9 / resemble-01
+                                    :ARG2 (z10 / cry-02
+                                               :ARG0 (z11 / child))))
+             :ARG2 (z12 / kid)
+             :time (z13 / then)
+             :polarity (z14 / amr-unknown)))
+
+# ::id 30
+# ::snt
+(z1 / possible-01
+    :polarity -
+    :ARG1 (z2 / it))
+
+# ::id 31
+# ::snt
+(z1 / and
+    :op1 (z2 / wood
+             :ARG2-of (z3 / burn-01)
+             :domain (z4 / stick
+                         :location (z5 / here)
+                         :consist-of (z6 / wood)))
+    :op2 (z7 / stick
+             :ARG1-of (z8 / resemble-01
+                          :ARG2 (z9 / stick
+                                    :location (z10 / here))))
+    :op3 (z11 / good-03
+              :ARG1 (z12 / put-01
+                         :ARG1 z8
+                         :ARG2 (z13 / fire)
+                         :purpose (z14 / cook-01
+                                       :ARG1 (z15 / pot
+                                                  :consist-of (z16 / bean))))
+              :mod (z17 / just)))
+
+# ::id 32
+# ::snt
+(z1 / have-condition-91
+    :polarity (z2 / amr-unknown)
+    :ARG2 (z3 / hide-01
+              :polarity -
+              :ARG0 (z4 / someone)
+              :ARG1 z4
+              :location (z5 / there)))
+
+# ::id 33
+# ::snt
+(z1 / see-01
+    :ARG0 (z2 / we)
+    :ARG1 (z3 / someone)
+    :condition (z4 / anyone)
+    :mod (z5 / well))
+
+# ::id 34
+# ::snt
+(z1 / much
+    :degree (z2 / so)
+    :topic (z3 / he))
+
+# ::id 35
+# ::snt
+(z1 / and
+    :op1 (z2 / grasp-01
+             :ARG0 (z3 / he)
+             :ARG1 (z4 / bit
+                       :mod (z5 / wood)
+                       :mod (z6 / poor))
+             :manner (z7 / hand
+                         :quant 2))
+    :op2 (z8 / begin-01
+             :ARG0 z3
+             :ARG1 (z9 / pound-02
+                       :ARG0 z3
+                       :ARG1 z4
+                       :ARG3 (z10 / against
+                                  :op1 (z11 / wall
+                                            :part-of (z12 / room)))
+                       :manner (z13 / pitiless))))
+
+# ::id 36
+# ::snt
+(z1 / and
+    :op2 (z2 / tender-02
+             :ARG0 (z3 / he)
+             :ARG1 (z4 / ear)
+             :purpose (z5 / hear-01
+                          :ARG0 z3
+                          :ARG1 (z6 / lament-01
+                                    :ARG0 (z7 / voice
+                                              :mod (z8 / small))))
+             :time (z9 / then)))
+
+# ::id 37
+# ::snt
+(z1 / wait-01
+    :ARG1 (z2 / he)
+    :duration (z3 / temporal-quantity
+                  :quant 2
+                  :unit (z4 / minute))
+    :concession-of (z5 / event
+                       :polarity -))
+
+# ::id 38
+# ::snt
+(z1 / and
+    :op1 (z2 / wait-01
+             :ARG1 (z3 / it)
+             :duration (z4 / temporal-quantity
+                           :quant 5
+                           :unit (z5 / minute)))
+    :op2 (z6 / wait-01
+             :ARG1 z3
+             :duration (z7 / temporal-quantity
+                           :quant 10
+                           :unit (z8 / minute)))
+    :op3 (z9 / nothing
+             :mod (z10 / still)))
+
+# ::id 39
+# ::snt
+(z1 / say-01
+    :ARG0 (z2 / he)
+    :ARG1 (z3 / understand-01
+              :ARG0 (z4 / i)
+              :ARG1 (z5 / and
+                        :op1 (z6 / burst-out-04
+                                 :ARG0 z2
+                                 :ARG1 (z7 / laugh-01
+                                           :ARG0 z2))
+                        :op2 (z8 / slam-02
+                                 :ARG0 z2
+                                 :ARG1 (z9 / lose-02)))))
+
+# ::id 40
+# ::snt
+(z1 / prove-01
+    :mode expressive
+    :ARG1 (z2 / take-away-05
+              :ARG0 (z3 / voice
+                        :mod (z4 / that)
+                        :ARG0-of (z5 / make-01
+                                     :ARG1 (z6 / aya)))
+              :ARG1 (z7 / right-05
+                        :ARG1 z9
+                        :ARG2 (z8 / imagine-01
+                                  :ARG0 (z9 / i))
+                        :mod (z10 / any)))
+    :location (z11 / here))
+
+# ::id 41
+# ::snt
+(z1 / get-back-10
+    :mode imperative
+    :ARG1 (z2 / we)
+    :ARG2 (z3 / work-01
+              :ARG0 z2))
+
+# ::id 42
+# ::snt
+(z1 / and
+    :op2 (z2 / cause-01
+             :ARG0 (z3 / fear-01
+                       :ARG0 (z4 / he)
+                       :degree (z5 / great))
+             :ARG1 (z6 / try-01
+                       :ARG0 z4
+                       :ARG1 (z7 / shoo-in-00
+                                 :ARG0 z4
+                                 :purpose (z8 / give-01
+                                              :ARG0 z4
+                                              :ARG1 (z9 / courage
+                                                        :quant (z10 / some)))))))
+
+# ::id 43
+# ::snt
+(z1 / contrast-01
+    :ARG1 (z2 / take-04
+              :ARG0 (z3 / he)
+              :ARG1 (z4 / rabot)
+              :purpose (z5 / and
+                           :op1 (z6 / make-01
+                                    :ARG0 z3
+                                    :ARG1 (z7 / and
+                                              :op1 (z8 / safe-01)
+                                              :op2 (z9 / nice-01)))
+                           :op2 (z10 / clean-01
+                                     :ARG0 z3
+                                     :ARG1 (z11 / woods)))
+              :manner (z12 / bare-02
+                           :ARG1 (z13 / ass
+                                      :part-of z3)))
+    :ARG2 (z14 / hear-01
+               :ARG0 z3
+               :ARG1 (z15 / laugh-01
+                          :ARG1 (z16 / stop-01
+                                     :mode expressive)
+                          :mod (z17 / little))
+               :time (z18 / rabot-00
+                          :ARG0 z3)))
+
+# ::id 44
+# ::snt
+(z1 / make-02
+    :ARG0 (z2 / you)
+    :ARG1 (z3 / rubber
+              :domain (z4 / i)
+              :prep-on (z5 / body
+                           :mod (z6 / entire))))
+
+# ::id 45
+# ::snt
+(z1 / collapse-01
+    :ARG1 (z2 / person
+              :wiki "Cerise_the_Great-class_destroyer"
+              :name (z3 / name
+                        :op1 "Cerise")
+              :ARG1-of (z4 / fortunate-01
+                           :polarity -)
+              :ARG0-of (z5 / have-org-role-91
+                           :ARG2 (z6 / master)))
+    :time (z7 / time
+              :mod (z8 / this))
+    :ARG1-of (z9 / resemble-01
+                 :ARG2 (z10 / crumble-01
+                            :ARG1 z2)))
+
+# ::id 46
+# ::snt
+(z1 / sit-01
+    :ARG1 (z2 / he)
+    :ARG2 (z3 / ground
+              :mod (z4 / even))
+    :time (z5 / reopen-01
+              :ARG0 z2
+              :ARG1 (z6 / eye
+                        :part-of z2)))
+
+# ::id 47
+# ::snt
+(z1 / piece
+    :domain (z2 / face
+                :part-of (z3 / he)))
+
+# ::id 48
+# ::snt
+(z1 / change-01
+    :ARG1 (z2 / frighten-01
+              :mod (z3 / terrible))
+    :ARG2 (z4 / color-01
+              :ARG1 (z5 / nose
+                        :part-of (z6 / he))
+              :ARG2 (z7 / red-02
+                        :ARG1-of (z8 / go-01
+                                     :ARG4 (z9 / blue
+                                               :mod (z10 / neon))
+                                     :direction (z11 / down))))
+    :degree (z12 / so))
