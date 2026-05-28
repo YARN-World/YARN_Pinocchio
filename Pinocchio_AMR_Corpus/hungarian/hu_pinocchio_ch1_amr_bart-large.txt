@@ -1,5 +1,5 @@
 # ::id 0
-# ::snt
+# ::snt _not_available_
 (z1 / come-up-11
     :ARG0 (z2 / person
               :wiki -
@@ -14,7 +14,7 @@
     :manner (z10 / amr-unknown))
 
 # ::id 1
-# ::snt
+# ::snt _not_available_
 (z1 / start-01
     :ARG0 (z2 / person
               :wiki -
@@ -26,7 +26,7 @@
               :time (z7 / once)))
 
 # ::id 2
-# ::snt
+# ::snt _not_available_
 (z1 / say-01
     :ARG0 (z2 / i)
     :ARG1 (z3 / and
@@ -41,7 +41,7 @@
                         :op1 "Cameron")))
 
 # ::id 3
-# ::snt
+# ::snt _not_available_
 (z1 / wrong-04
     :ARG1 (z2 / person
               :ARG0-of (z3 / have-rel-role-91
@@ -52,14 +52,14 @@
     :mod (z8 / just))
 
 # ::id 4
-# ::snt
+# ::snt _not_available_
 (z1 / concern-02
     :polarity -
     :ARG0 (z2 / it)
     :ARG1 (z3 / king))
 
 # ::id 5
-# ::snt
+# ::snt _not_available_
 (z1 / piece
     :consist-of (z2 / shit)
     :time (z3 / once)
@@ -68,7 +68,7 @@
                   :op2 (z6 / amr-unknown)))
 
 # ::id 6
-# ::snt
+# ::snt _not_available_
 (z1 / contrast-01
     :ARG1 (z2 / something
               :polarity -
@@ -80,7 +80,7 @@
               :domain (z8 / he)))
 
 # ::id 7
-# ::snt
+# ::snt _not_available_
 (z1 / put-01
     :ARG0 (z2 / you)
     :ARG1 (z3 / thing
@@ -98,7 +98,7 @@
                                       :ARG1 (z14 / room)))))
 
 # ::id 8
-# ::snt
+# ::snt _not_available_
 (z1 / come-04
     :ARG1 (z2 / tusk
               :mod (z3 / this))
@@ -113,7 +113,7 @@
                  :op2 (z12 / amr-unknown)))
 
 # ::id 9
-# ::snt
+# ::snt _not_available_
 (z1 / name-01
     :ARG1 (z2 / man
               :mod (z3 / old))
@@ -145,7 +145,7 @@
                                                 :ARG3 (z21 / more)))))
 
 # ::id 10
-# ::snt
+# ::snt _not_available_
 (z1 / break-heart-31
     :ARG1 (z2 / master
               :mod (z3 / old))
@@ -158,7 +158,7 @@
     :degree (z9 / really))
 
 # ::id 11
-# ::snt
+# ::snt _not_available_
 (z1 / and
     :op1 (z2 / dab-01
              :ARG0 (z3 / he)
@@ -177,7 +177,7 @@
                                  :mod (z13 / just)))))
 
 # ::id 12
-# ::snt
+# ::snt _not_available_
 (z1 / touch-01
     :ARG0 (z2 / he)
     :ARG1 (z3 / head
@@ -194,7 +194,7 @@
                            :mod (z10 / above))))
 
 # ::id 13
-# ::snt
+# ::snt _not_available_
 (z1 / contrast-01
     :ARG1 (z2 / and
               :op1 (z3 / raise-01
@@ -213,7 +213,7 @@
               :location (z12 / air)))
 
 # ::id 14
-# ::snt
+# ::snt _not_available_
 (z1 / and
     :op1 (z2 / hear-01
              :ARG0 (z3 / he)
@@ -238,7 +238,7 @@
                               :mod (z16 / small))))
 
 # ::id 15
-# ::snt
+# ::snt _not_available_
 (z1 / possible-01
     :ARG1 (z2 / imagine-01
               :ARG0 (z3 / you)
@@ -250,7 +250,7 @@
                                            :op2 "Renaissance")))))
 
 # ::id 16
-# ::snt
+# ::snt _not_available_
 (z1 / and
     :op1 (z2 / look-01
              :ARG0 (z3 / he)
@@ -274,7 +274,7 @@
               :mod (z15 / by-the-way)))
 
 # ::id 17
-# ::snt
+# ::snt _not_available_
 (z1 / fall-01
     :ARG1 (z2 / he)
     :ARG4 (z3 / floor)
@@ -282,7 +282,7 @@
                  :ARG0 (z5 / no-one)))
 
 # ::id 18
-# ::snt
+# ::snt _not_available_
 (z1 / and
     :op1 (z2 / have-03
              :ARG0 (z3 / she)
@@ -295,7 +295,7 @@
              :ARG2 (z9 / he)))
 
 # ::id 19
-# ::snt
+# ::snt _not_available_
 (z1 / examine-01
     :ARG0 (z2 / he)
     :ARG1 (z3 / scandal
@@ -305,7 +305,7 @@
                  :ARG2 (z7 / you)))
 
 # ::id 20
-# ::snt
+# ::snt _not_available_
 (z1 / and
     :op1 (z2 / open-01
              :ARG0 (z3 / he)
@@ -318,7 +318,7 @@
                  :ARG0 (z9 / no)))
 
 # ::id 21
-# ::snt
+# ::snt _not_available_
 (z1 / and
     :op1 (z2 / thrust-01
              :ARG0 (z3 / he)
@@ -332,7 +332,7 @@
              :time (z8 / then)))
 
 # ::id 22
-# ::snt
+# ::snt _not_available_
 (z1 / chuck-01
     :ARG0 (z2 / he)
     :ARG1 (z3 / imagine-01
@@ -345,7 +345,7 @@
                                       :location (z9 / there)))))
 
 # ::id 23
-# ::snt
+# ::snt _not_available_
 (z1 / multi-sentence
     :snt1 (z2 / possible-01
               :ARG1 (z3 / in-trouble-03
@@ -357,7 +357,7 @@
                         :ARG0 z6)))
 
 # ::id 24
-# ::snt
+# ::snt _not_available_
 (z1 / and
     :op1 (z2 / hold-01
              :ARG0 (z3 / he)
@@ -372,7 +372,7 @@
              :mod (z9 / exact)))
 
 # ::id 25
-# ::snt
+# ::snt _not_available_
 (z1 / wail-01
     :ARG0 (z2 / voice
               :mod (z3 / small)
@@ -384,7 +384,7 @@
                  :ARG1-of (z7 / sure-02)))
 
 # ::id 26
-# ::snt
+# ::snt _not_available_
 (z1 / contrast-01
     :ARG2 (z2 / become-01
               :polarity -
@@ -403,7 +403,7 @@
                                    :ARG1 (z12 / that)))))
 
 # ::id 27
-# ::snt
+# ::snt _not_available_
 (z1 / and
     :op1 (z2 / go-off-16
              :ARG1 (z3 / eye
@@ -417,7 +417,7 @@
                 :mod (z8 / even)))
 
 # ::id 28
-# ::snt
+# ::snt _not_available_
 (z1 / good-02
     :ARG1 (z2 / bite-01
               :polarity -
@@ -435,7 +435,7 @@
               :time (z11 / then)))
 
 # ::id 29
-# ::snt
+# ::snt _not_available_
 (z1 / rumble-01
     :ARG0 (z2 / he)
     :ARG1 (z3 / come-03
@@ -450,7 +450,7 @@
                                                :domain z8)))))
 
 # ::id 30
-# ::snt
+# ::snt _not_available_
 (z1 / cause-01
     :ARG0 (z2 / be-located-at-91
               :polarity -
@@ -461,7 +461,7 @@
               :ARG2 (z7 / room)))
 
 # ::id 31
-# ::snt
+# ::snt _not_available_
 (z1 / cry-01
     :ARG0 (z2 / tusk
               :mod (z3 / dumb))
@@ -470,7 +470,7 @@
     :mod (z6 / just))
 
 # ::id 32
-# ::snt
+# ::snt _not_available_
 (z1 / and
     :op1 (z2 / possible-01
              :polarity -)
@@ -478,7 +478,7 @@
              :polarity -))
 
 # ::id 33
-# ::snt
+# ::snt _not_available_
 (z1 / put-01
     :ARG0 (z2 / i)
     :ARG1 (z3 / tusk
@@ -493,7 +493,7 @@
                            :ARG2 z5)))
 
 # ::id 34
-# ::snt
+# ::snt _not_available_
 (z1 / or
     :op2 (z2 / possible-01
              :ARG1 (z3 / fall-10
@@ -501,7 +501,7 @@
              :polarity (z5 / amr-unknown)))
 
 # ::id 35
-# ::snt
+# ::snt _not_available_
 (z1 / multi-sentence
     :snt1 (z2 / no)
     :snt2 (z3 / possible-01
@@ -518,7 +518,7 @@
                            :mod (z14 / that))))
 
 # ::id 36
-# ::snt
+# ::snt _not_available_
 (z1 / and
     :op1 (z2 / grab-01
              :ARG0 (z3 / he)
@@ -532,7 +532,7 @@
              :manner (z8 / sharp-02)))
 
 # ::id 37
-# ::snt
+# ::snt _not_available_
 (z1 / and
     :op1 (z2 / interrupt-01
              :ARG0 (z3 / he)
@@ -550,7 +550,7 @@
              :time (z11 / then)))
 
 # ::id 38
-# ::snt
+# ::snt _not_available_
 (z1 / and
     :op1 (z2 / wait-01
              :duration (z3 / temporal-quantity
@@ -559,7 +559,7 @@
     :op2 (z5 / nothing))
 
 # ::id 39
-# ::snt
+# ::snt _not_available_
 (z1 / and
     :op1 (z2 / wait-01
              :duration (z3 / temporal-quantity
@@ -568,7 +568,7 @@
     :op2 (z5 / nothing))
 
 # ::id 40
-# ::snt
+# ::snt _not_available_
 (z1 / and
     :op1 (z2 / wait-01
              :duration (z3 / temporal-quantity
@@ -577,7 +577,7 @@
     :op2 (z5 / nothing))
 
 # ::id 41
-# ::snt
+# ::snt _not_available_
 (z1 / and
     :op1 (z2 / say-01
              :ARG0 (z3 / he)
@@ -592,7 +592,7 @@
                        :ARG1-of (z10 / ensue-01))))
 
 # ::id 42
-# ::snt
+# ::snt _not_available_
 (z1 / have-03
     :ARG0 (z2 / he)
     :ARG1 (z3 / idea
@@ -602,7 +602,7 @@
                            :ARG1 (z6 / punch-01))))
 
 # ::id 43
-# ::snt
+# ::snt _not_available_
 (z1 / multi-sentence
     :snt1 (z2 / see-01
               :mode imperative
@@ -616,7 +616,7 @@
               :location (z9 / here)))
 
 # ::id 44
-# ::snt
+# ::snt _not_available_
 (z1 / contrast-01
     :ARG2 (z2 / cause-01
               :ARG0 (z3 / ride-01
@@ -637,7 +637,7 @@
                                                  :ARG1 (z13 / he))))))
 
 # ::id 45
-# ::snt
+# ::snt _not_available_
 (z1 / and
     :op1 (z2 / and
              :op1 (z3 / put-01
@@ -658,7 +658,7 @@
                          :ARG1-of (z13 / nice-01))))
 
 # ::id 46
-# ::snt
+# ::snt _not_available_
 (z1 / and
     :op1 (z2 / sigh-02
              :mode expressive)
@@ -682,7 +682,7 @@
                                                             :ARG0 z13))))))
 
 # ::id 47
-# ::snt
+# ::snt _not_available_
 (z1 / pop-up-03
     :ARG1 (z2 / person
               :ARG0-of (z3 / master-01
@@ -695,7 +695,7 @@
                                                       :ARG0 (z10 / i))))))
 
 # ::id 48
-# ::snt
+# ::snt _not_available_
 (z1 / and
     :op1 (z2 / sit-01
              :ARG1 (z3 / he)
@@ -718,7 +718,7 @@
                                                         :part-of z3))))))
 
 # ::id 49
-# ::snt
+# ::snt _not_available_
 (z1 / change-01
     :ARG1 (z2 / face
               :part-of (z3 / he))

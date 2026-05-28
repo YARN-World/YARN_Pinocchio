@@ -1,11 +1,11 @@
 # ::id 0
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 20:34
 (c / chapter
    :mod 1)
 
 # ::id 1
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 20:34
 (c / come-across-21
    :ARG0 (p / person
@@ -24,12 +24,12 @@
    :manner (z9 / amr-unknown))
 
 # ::id 2
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 20:34
 (o / once-upon-a-time)
 
 # ::id 3
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 20:34
 (s / yell-01
    :ARG0 (c / child
@@ -40,7 +40,7 @@
    :mode "expressive")
 
 # ::id 4
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 20:34
 (s / say-01
    :ARG0 (i / i)
@@ -48,14 +48,14 @@
             :ARG0 (c / child)))
 
 # ::id 5
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 20:34
 (p / piece
    :consist-of (w / wood)
    :time (o / once-upon-a-time))
 
 # ::id 6
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 20:34
 (c / contrast-01
    :ARG1 (m / miracle
@@ -67,7 +67,7 @@
             :domain i))
 
 # ::id 7
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 20:34
 (b / burn-01
    :ARG1 (t / thing
@@ -81,7 +81,7 @@
             :season (w / winter)))
 
 # ::id 8
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 20:34
 (c / contrast-01
    :ARG1 (k / know-01
@@ -119,7 +119,7 @@
                                                           :domain t2))))))
 
 # ::id 9
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 20:34
 (c / cause-01
    :ARG1 (a / and
@@ -138,7 +138,7 @@
             :ARG0 p1))
 
 # ::id 10
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 20:34
 (c / come-01
    :ARG4 (i / i)
@@ -148,7 +148,7 @@
              :ARG1-of (r / right-03)))
 
 # ::id 11
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 20:34
 (s / say-01
    :ARG1-of (q / quiet-04)
@@ -161,7 +161,7 @@
    :ARG0 h)
 
 # ::id 12
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 20:34
 (d / do-02
    :ARG0 (h / he
@@ -170,7 +170,7 @@
             :ARG1-of s))
 
 # ::id 13
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 20:34
 (g / grab-01
    :ARG0 (h / he
@@ -185,7 +185,7 @@
                :ARG0 h))
 
 # ::id 14
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 20:34
 (c / contrast-01
    :ARG2 (f / freeze-02
@@ -211,7 +211,7 @@
    :ARG1 (c1 / cause-01))
 
 # ::id 15
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 20:34
 (p / possible-01
    :ARG1 (i / imagine-01
@@ -225,7 +225,7 @@
                                              :wiki -)))))
 
 # ::id 16
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 20:34
 (b / begin-01
    :ARG0 (h / he
@@ -239,7 +239,7 @@
               :ARG1-of (w / wide-02)))
 
 # ::id 17
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 20:34
 (c / come-01
    :ARG1 (v / voice
@@ -247,7 +247,7 @@
    :ARG3 (a / amr-unknown))
 
 # ::id 18
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 20:34
 (s / see-01
    :location (a / anywhere)
@@ -255,7 +255,7 @@
    :polarity -)
 
 # ::id 19
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 20:34
 (a / and
    :op2 (l / look-01
@@ -265,7 +265,7 @@
            :location u))
 
 # ::id 20
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 20:34
 (a1 / and
     :op2 (n / no-one
@@ -276,7 +276,7 @@
             :ARG1 w))
 
 # ::id 21
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 20:34
 (a / and
    :op1 (l / look-01
@@ -290,7 +290,7 @@
            :location b))
 
 # ::id 22
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 20:34
 (a / and
    :op1 (o / open-01
@@ -304,7 +304,7 @@
    :op3 (n / no-one))
 
 # ::id 23
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 20:34
 (c / contrast-01
    :ARG0 (w / wait-01
@@ -313,7 +313,7 @@
             :ARG1 (a / amr-unknown)))
 
 # ::id 24
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 20:34
 (a / and
    :op1 (s1 / say-01
@@ -328,7 +328,7 @@
                                            :part-of h)))))
 
 # ::id 25
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 20:34
 (h / hear-01
    :ARG0 (i / i)
@@ -336,14 +336,14 @@
    :mod (j / just))
 
 # ::id 26
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 20:34
 (g / get-06
    :ARG0 (w / work-01)
    :mode "imperative")
 
 # ::id 27
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 20:34
 (a2 / and
     :op1 (p / pick-up-04
@@ -356,7 +356,7 @@
             :ARG2 a))
 
 # ::id 28
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 20:34
 (c / cry-01
    :ARG1 (h / hurt-01
@@ -369,7 +369,7 @@
 
 
 # ::id 29
-# ::snt
+# ::snt _not_available_
 # ::save-date Fri Aug 22, 2025 11:44 22:39
 (p1 / petrify-01
     :ARG1 (p / person
@@ -398,7 +398,7 @@
     :ARG1-of (s1 / simple-02))
 
 # ::id 30
-# ::snt
+# ::snt _not_available_
 # ::save-date Fri Aug 22, 2025 11:44 22:39
 (s / speak-01
    :ARG0 (h / he
@@ -425,14 +425,14 @@
 
 
 # ::id 31
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 22:39
 (s / soul
    :polarity -
    :location (h / here))
 
 # ::id 32
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 22:39
 (p / possible-01
    :polarity (a / amr-unknown)
@@ -445,7 +445,7 @@
                          :ARG2 (c / child))))
 
 # ::id 33
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 22:39
 (p / possible-01
    :polarity -
@@ -453,7 +453,7 @@
    :mod (j / just))
 
 # ::id 34
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 22:39
 (p / piece
    :consist-of (w / wood)
@@ -467,7 +467,7 @@
                                    :quant (z9 / many)))))
 
 # ::id 35
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 22:39
 (p / possible-01
    :ARG1 (c / cook-01
@@ -477,13 +477,13 @@
             :mod (e / also)))
 
 # ::id 36
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 22:39
 (w / wait-01
    :mode "imperative")
 
 # ::id 37
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 22:39
 (p / possible-01
    :ARG1 (h / hide-01
@@ -493,7 +493,7 @@
    :polarity "amr-unknown")
 
 # ::id 38
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 22:39
 (h / have-degree-91
    :ARG1 (b / bad-04
@@ -501,7 +501,7 @@
    :ARG3 (m / more))
 
 # ::id 39
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 22:39
 (s / show-01
    :ARG0 (i / i)
@@ -509,7 +509,7 @@
    :mode "expressive")
 
 # ::id 40
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 22:39
 (z0 / and
     :op1 (z1 / grab-01
@@ -534,7 +534,7 @@
                :ARG1 (z12 / this)))
 
 # ::id 41
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 22:39
 (a / and-01
    :op1 (s / stop-01
@@ -543,7 +543,7 @@
            :ARG0 h1))
 
 # ::id 42
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 22:39
 (p / possible-01
    :ARG0 (h / hear-01
@@ -554,7 +554,7 @@
    :polarity "amr-unknown")
 
 # ::id 43
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 22:39
 (a / and
    :op1 (c / contrast-01
@@ -582,7 +582,7 @@
                       :mod (s / still))))
 
 # ::id 44
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 22:39
 (s / say-01
    :ARG0 (h / he)
@@ -596,7 +596,7 @@
             :ARG0 h))
 
 # ::id 45
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 22:39
 (p / possible-01
    :ARG0 (h / hear-01
@@ -608,13 +608,13 @@
                                  :ARG1 (o / oh)))))
 
 # ::id 46
-# ::snt
+# ::snt _not_available_
 (g / get-06
    :ARG0 (w / work-01)
    :mode "imperative")
 
 # ::id 47
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 22:39
 (z0 / contrast-01
     :ARG1 (z1 / begin-01
@@ -628,7 +628,7 @@
                                                :ARG0 z2)))))
 
 # ::id 48
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 22:39
 (a / and
    :op2 (t / take-01
@@ -645,7 +645,7 @@
             :ARG2 (d1 / down)))
 
 # ::id 49
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 22:39
 (z0 / contrast-01
     :ARG2 (z1 / hear-01
@@ -672,7 +672,7 @@
                                               :op1 (z18 / wood))))))
 
 # ::id 50
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 22:39
 (z0 / tickle-01
     :mode expressive
@@ -680,7 +680,7 @@
     :ARG1 (z2 / i))
 
 # ::id 51
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 22:39
 (z0 / fall-01
     :ARG1 (z1 / person
@@ -697,7 +697,7 @@
               :mod (z8 / this)))
 
 # ::id 52
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 22:39
 (z0 / see-01
     :ARG0 (z1 / he)
@@ -714,7 +714,7 @@
                                  :part-of z1))))
 
 # ::id 53
-# ::snt
+# ::snt _not_available_
 # ::save-date Thu Aug 21, 2025 22:39
 (z0 / and
     :op1 (z1 / contort-01
