@@ -1,10 +1,12 @@
+# French text from: https://www.ebooksgratuits.com/pdf/collodi_pinocchio.pdf
+
 # ::id 0
-# ::snt
+# ::snt Chapitre 1
 (z1 / chapter
     :mod 1)
 
 # ::id 1
-# ::snt
+# ::snt Comment Maître Cerise, le menuisier, trouva un morceau de bois qui pleurait et riait comme un enfant.
 (z1 / find-01
     :ARG0 (z2 / person
               :wiki -
@@ -22,13 +24,13 @@
     :manner (z11 / amr-unknown))
 
 # ::id 2
-# ::snt
+# ::snt Il était une fois…
 (z1 / time
     :mod (z2 / one)
     :domain (z3 / he))
 
 # ::id 3
-# ::snt
+# ::snt – Un roi ! – vont dire mes petits lecteurs.
 (z1 / tell-01
     :ARG0 (z2 / i)
     :ARG1 (z3 / person
@@ -40,7 +42,7 @@
                         :op1 "King")))
 
 # ::id 4
-# ::snt
+# ::snt Eh bien non, les enfants, vous vous trompez. Il était une fois…
 (z1 / say-01
     :ARG0 (z2 / i)
     :ARG1 (z3 / wrong-04
@@ -51,14 +53,14 @@
              :mode expressive))
 
 # ::id 5
-# ::snt
+# ::snt un morceau de bois.
 (z1 / piece
     :mod (z2 / wood)
     :domain (z3 / it)
     :time (z4 / once-upon-a-time))
 
 # ::id 6
-# ::snt
+# ::snt Ce n’était pas du bois précieux, mais une simple bûche, de celles qu’en hiver on jette dans les poêles et dans les cheminées.
 (z1 / contrast-01
     :ARG1 (z2 / wood
               :polarity -
@@ -73,7 +75,7 @@
                          :season (z11 / winter))))
 
 # ::id 7
-# ::snt
+# ::snt Je ne pourrais pas expliquer comment, mais le fait est qu’un beau jour ce bout de bois se retrouva dans l’atelier d’un vieux menuisier, lequel avait pour nom Antonio bien que tout le monde l’appelât Maître Cerise à cause de la pointe de son nez qui était toujours brillante et rouge foncé, comme une cerise mûre.
 (z1 / contrast-01
     :ARG1 (z2 / possible-01
               :polarity -
@@ -112,7 +114,7 @@
                                                                                                                                                             :mod (z29 / mold))))))))))))))
 
 # ::id 8
-# ::snt
+# ::snt Apercevant ce morceau de bois, Maître Cerise devint tout joyeux et, se frottant les mains, marmonna : – Ce rondin est arrivé à point : je vais m’en servir pour fabriquer un pied de table.
 (z1 / and
     :op1 (z2 / burst-02
              :ARG1 (z3 / person
@@ -152,7 +154,7 @@
                                                           :ARG1 (z23 / foot)))))))
 
 # ::id 9
-# ::snt
+# ::snt Sitôt dit, sitôt fait : pour enlever l’écorce et le dégrossir, il empoigna sa hache bien aiguisée.
 (z1 / multi-sentence
     :snt1 (z2 / and
               :op1 (z3 / say-01
@@ -174,7 +176,7 @@
                                       :ARG1 z14))))
 
 # ::id 10
-# ::snt
+# ::snt Mais comme il allait donner le premier coup, son bras resta suspendu en l’air car il venait d’entendre une toute petite voix qui le suppliait :
 (z1 / contrast-01
     :ARG2 (z2 / hang-01
               :ARG1 (z3 / arm
@@ -201,13 +203,13 @@
                                       :mod (z18 / just)))))
 
 # ::id 11
-# ::snt
+# ::snt ???
 (z0 / bark-01
     :ARG0 (z1 / dog)
     :ARG1 (z2 / tree))
 
 # ::id 12
-# ::snt
+# ::snt Ses yeux égarés firent le tour de la pièce pour comprendre d’où pouvait bien venir cette voix fluette, mais il ne vit personne.
 (z1 / fire-01
     :ARG0 (z2 / eye
               :ARG1-of (z3 / wide-02)
@@ -230,7 +232,7 @@
                              :ARG1 (z17 / no-one))))
 
 # ::id 13
-# ::snt
+# ::snt Il regarda sous l’établi : personne !
 (z1 / multi-sentence
     :snt1 (z2 / look-01
               :ARG0 (z3 / he)
@@ -240,7 +242,7 @@
     :snt2 (z7 / no))
 
 # ::id 14
-# ::snt
+# ::snt Il ouvrit une armoire habituellement fermée mais, là non plus, il n’y avait personne.
 (z1 / contrast-01
     :ARG1 (z2 / open-01
               :ARG0 (z3 / he)
@@ -252,7 +254,7 @@
               :location (z9 / there)))
 
 # ::id 15
-# ::snt
+# ::snt  Il inspecta la corbeille remplie de copeaux et de sciure : rien 
 (z1 / inspect-01
     :ARG0 (z2 / he)
     :ARG1 (z3 / cornea
@@ -263,7 +265,7 @@
     :ARG2 (z8 / nothing))
 
 # ::id 16
-# ::snt
+# ::snt  Il poussa même la porte de son atelier et jeta un coup d’œil sur la route. 
 (z1 / and
     :op1 (z2 / push-01
              :ARG0 (z3 / he)
@@ -277,20 +279,20 @@
              :direction (z9 / out)))
 
 # ::id 17
-# ::snt
+# ::snt Pas âme qui vive !
 (z1 / live-01
     :polarity -
     :mode expressive
     :ARG0 (z2 / person))
 
 # ::id 18
-# ::snt
+# ::snt Mais alors ?
 (z1 / contrast-01
     :ARG2 (z2 / so
               :mod (z3 / amr-unknown)))
 
 # ::id 19
-# ::snt
+# ::snt – J’ai compris – dit-il en riant et en grattant sa perruque –
 (z1 / say-01
     :ARG0 (z2 / he)
     :ARG1 (z3 / understand-01
@@ -305,14 +307,14 @@
                                    :ARG0 z2))))
 
 # ::id 20
-# ::snt
+# ::snt cette voix, je l’ai imaginée
 (z1 / imagine-01
     :ARG0 (z2 / i)
     :ARG1 (z3 / voice
               :mod (z4 / that)))
 
 # ::id 21
-# ::snt
+# ::snt Remettons-nous au travail.
 (z1 / get-back-10
     :mode imperative
     :ARG1 (z2 / we)
@@ -320,7 +322,7 @@
               :ARG0 z2))
 
 # ::id 22
-# ::snt
+# ::snt Empoignant de nouveau sa hache, il en asséna un formidable coup au morceau de bois.
 (z1 / land-01
     :ARG0 (z2 / he)
     :ARG1 (z3 / blow-14
@@ -335,12 +337,12 @@
                 :mod (z9 / again)))
 
 # ::id 23
-# ::snt
+# ::snt – Aïe !
 (z1 / ouch
     :mode expressive)
 
 # ::id 24
-# ::snt
+# ::snt Tu m’as fait mal ! – se lamenta la même petite voix.
 (z1 / wail-01
     :ARG0 (z2 / voice
               :mod (z3 / tiny)
@@ -350,7 +352,7 @@
               :ARG1 (z7 / i)))
 
 # ::id 25
-# ::snt
+# ::snt Cette fois, Maître Cerise en fut baba.
 (z1 / baba
     :domain (z2 / person
                 :wiki -
@@ -361,7 +363,7 @@
               :mod (z5 / this)))
 
 # ::id 26
-# ::snt
+# ::snt  Il resta bouche bée, la langue pendante, les yeux exorbités, comme la figurine de pierre d’une fontaine.
 (z1 / remain-01
     :ARG1 (z2 / and
               :op1 (z3 / mouth
@@ -376,7 +378,7 @@
     :ARG3 (z12 / away))
 
 # ::id 27
-# ::snt
+# ::snt Mais d’où peut bien sortir cette voix qui fait « aïe » ?
 (z1 / contrast-01
     :ARG2 (z2 / possible-01
               :ARG1 (z3 / get-05
@@ -388,13 +390,13 @@
                         :mod (z9 / well))))
 
 # ::id 28
-# ::snt
+# ::snt Pourtant il n’y a personne ici.
 (z1 / have-concession-91
     :ARG1 (z2 / no-one
               :location (z3 / here)))
 
 # ::id 29
-# ::snt
+# ::snt Ou alors ce morceau de bois aurait appris à pleurer et à se lamenter comme un enfant ?
 (z1 / or
     :op2 (z2 / teach-01
              :ARG0 (z3 / piece
@@ -411,13 +413,13 @@
              :polarity (z14 / amr-unknown)))
 
 # ::id 30
-# ::snt
+# ::snt C’est impossible.
 (z1 / possible-01
     :polarity -
     :ARG1 (z2 / it))
 
 # ::id 31
-# ::snt
+# ::snt Le bout de bois que voici, c’est du bois à brûler, une bûche comme une autre, juste bonne à mettre dans le feu pour faire cuire une casserole de haricots.
 (z1 / and
     :op1 (z2 / wood
              :ARG2-of (z3 / burn-01)
@@ -438,7 +440,7 @@
               :mod (z17 / just)))
 
 # ::id 32
-# ::snt
+# ::snt A moins que quelqu’un ne soit caché là-dedans ?
 (z1 / have-condition-91
     :polarity (z2 / amr-unknown)
     :ARG2 (z3 / hide-01
@@ -448,7 +450,7 @@
               :location (z5 / there)))
 
 # ::id 33
-# ::snt
+# ::snt S’il y a quelqu’un, on va bien voir 
 (z1 / see-01
     :ARG0 (z2 / we)
     :ARG1 (z3 / someone)
@@ -456,13 +458,13 @@
     :mod (z5 / well))
 
 # ::id 34
-# ::snt
+# ::snt Tant pis pour lui.
 (z1 / much
     :degree (z2 / so)
     :topic (z3 / he))
 
 # ::id 35
-# ::snt
+# ::snt Il saisit à deux mains le pauvre morceau de bois et se mit à le cogner sans pitié contre les murs de la pièce.
 (z1 / and
     :op1 (z2 / grasp-01
              :ARG0 (z3 / he)
@@ -482,7 +484,7 @@
                        :manner (z13 / pitiless))))
 
 # ::id 36
-# ::snt
+# ::snt Puis il tendit l’oreille pour entendre les lamentations de la petite voix.
 (z1 / and
     :op2 (z2 / tender-02
              :ARG0 (z3 / he)
@@ -495,7 +497,7 @@
              :time (z9 / then)))
 
 # ::id 37
-# ::snt
+# ::snt Il attendit deux minutes, mais rien ne se manifesta.
 (z1 / wait-01
     :ARG1 (z2 / he)
     :duration (z3 / temporal-quantity
@@ -505,7 +507,7 @@
                        :polarity -))
 
 # ::id 38
-# ::snt
+# ::snt Il attendit cinq minutes, dix minutes : toujours rien !
 (z1 / and
     :op1 (z2 / wait-01
              :ARG1 (z3 / it)
@@ -521,7 +523,7 @@
              :mod (z10 / still)))
 
 # ::id 39
-# ::snt
+# ::snt – J’ai compris – dit-il en s’efforçant de rire et en se grattant la perruque
 (z1 / say-01
     :ARG0 (z2 / he)
     :ARG1 (z3 / understand-01
@@ -536,7 +538,7 @@
                                  :ARG1 (z9 / lose-02)))))
 
 # ::id 40
-# ::snt
+# ::snt – voilà la preuve que cette voix qui fait « aïe » sort tout droit de mon imagination !
 (z1 / prove-01
     :mode expressive
     :ARG1 (z2 / take-away-05
@@ -552,7 +554,7 @@
     :location (z11 / here))
 
 # ::id 41
-# ::snt
+# ::snt Remettons-nous au travail.
 (z1 / get-back-10
     :mode imperative
     :ARG1 (z2 / we)
@@ -560,7 +562,7 @@
               :ARG0 z2))
 
 # ::id 42
-# ::snt
+# ::snt Et parce qu’il avait eu très peur, il s’essaya à chantonner pour se donner un peu de courage.
 (z1 / and
     :op2 (z2 / cause-01
              :ARG0 (z3 / fear-01
@@ -576,7 +578,7 @@
                                                         :quant (z10 / some)))))))
 
 # ::id 43
-# ::snt
+# ::snt Posant sa hache, il prit le rabot pour rendre bien lisse et propre le bois mais, alors qu’il rabotait, il entendit un petit rire : – Arrête ! 
 (z1 / contrast-01
     :ARG1 (z2 / take-04
               :ARG0 (z3 / he)
@@ -603,7 +605,7 @@
                           :ARG0 z3)))
 
 # ::id 44
-# ::snt
+# ::snt Tu me fais des chatouilles sur tout le corps !
 (z1 / make-02
     :ARG0 (z2 / you)
     :ARG1 (z3 / rubber
@@ -612,7 +614,7 @@
                            :mod (z6 / entire))))
 
 # ::id 45
-# ::snt
+# ::snt Cette fois, le malheureux Maître Cerise s’effondra, comme foudroyé.
 (z1 / collapse-01
     :ARG1 (z2 / person
               :wiki "Cerise_the_Great-class_destroyer"
@@ -629,7 +631,7 @@
                             :ARG1 z2)))
 
 # ::id 46
-# ::snt
+# ::snt Quand il rouvrit les yeux, il était assis à même le sol.
 (z1 / sit-01
     :ARG1 (z2 / he)
     :ARG2 (z3 / ground
@@ -640,13 +642,13 @@
                         :part-of z2)))
 
 # ::id 47
-# ::snt
+# ::snt Son visage était décomposé.
 (z1 / piece
     :domain (z2 / face
                 :part-of (z3 / he)))
 
 # ::id 48
-# ::snt
+# ::snt Une terrible peur avait changé jusqu’à la couleur de son nez qui, de rouge, avait viré au bleu foncé.
 (z1 / change-01
     :ARG1 (z2 / frighten-01
               :mod (z3 / terrible))
