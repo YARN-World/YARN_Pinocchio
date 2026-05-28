@@ -2,7 +2,7 @@
 # ::snt
 # ::save-date Thu Jun 26, 2025 16:54
 (c / chapter
-   :mod (1 / 1))
+   :mod 1)
 
 # ::id 1
 # ::snt
